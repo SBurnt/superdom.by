@@ -1,0 +1,14 @@
+{% extends "../ext/base.nunj" %}
+{% block title %}catalog{% endblock title %}
+
+{% block content %}
+	{% include '../../components/header/header.nunj' %}
+	<main class="main">
+		<div class="container">
+			<h2>Catalog</h2>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container">footer</div>
+	</footer>
+{% endblock %}

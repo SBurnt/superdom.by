@@ -1,0 +1,17 @@
+{
+	"menuItems": [
+		{
+			"name": "Catalog",
+			"path": "catalog.html",
+			"class": "activeItem"
+		},
+		{
+			"name": "About",
+			"path": "about.html"
+		},
+		{
+			"name": "Gallery",
+			"path": "gallery.html"
+		}
+	]
+}

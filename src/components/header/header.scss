@@ -1,0 +1,12 @@
+.header {
+	padding: 20px 0;
+	background: #ccc;
+
+	@include media("max", "md") {
+    height: 200px;
+	}
+
+	@include media("max", "xs") {
+    width: 100%;
+  }
+}

@@ -1,0 +1,41 @@
+.clearfix {
+	&:after {
+		content: ' ';
+
+		display: block;
+		clear: both;
+		height: 0;
+
+		font-size: 0;
+
+		visibility: hidden;
+	}
+}
+
+.invisible-container {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	z-index: -1;
+
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+.no-select {
+	user-select: none;
+}
+
+.no-pe {
+	pointer-events: none;
+}
+
+.static-text {
+	p {
+		margin-bottom: 1.4em;
+	}
+	img {
+		max-width: 100%;
+	}
+}
