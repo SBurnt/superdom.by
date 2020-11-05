@@ -1,17 +1,33 @@
 {
-	"menuItems": [
+	"navItems": [
 		{
-			"name": "Catalog",
+			"name": "Каталог",
 			"path": "catalog.html",
-			"class": "activeItem"
+			"classActive": "active"
 		},
 		{
-			"name": "About",
-			"path": "about.html"
+			"name": "О компании",
+			"path": "about-company.html"
 		},
 		{
-			"name": "Gallery",
+			"name": "Галерея",
 			"path": "gallery.html"
+		},
+		{
+			"name": "Сотрудничество",
+			"path": "cooperation.html"
+		},
+		{
+			"name": "Советы",
+			"path": "advice.html"
+		},
+		{
+			"name": "Прайс",
+			"path": "assets/files/price.pdf"
+		},
+		{
+			"name": "Контакты",
+			"path": "contacts.html"
 		}
 	]
 }

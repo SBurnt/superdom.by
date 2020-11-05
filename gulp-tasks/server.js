@@ -20,6 +20,7 @@ export default function server() {
 	browserSync.init({
 		server: {
 			baseDir: './build',
+			notify: false,
 			middleware: hmrEnabled
 				? [
 						webpackDevMiddleware(bundler, {

@@ -1,0 +1,7 @@
+<div class="header__top">
+	{% include '../../components/logo/logo.nunj' %}
+	{% include '../../components/address/address.nunj' %}
+	{% include '../../components/social/social.nunj' %}
+	{% include '../../components/phones/phones.nunj' %}
+	{% include '../../components/callback/callback.nunj' %}
+</div>

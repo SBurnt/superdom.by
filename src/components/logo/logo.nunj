@@ -1,0 +1,5 @@
+	<div class="logo__wrap">
+		<a class="logo__link" href="index.html">
+			<img class="logo__img" src="assets/images/logo.png" alt="логотип Супер дом">
+		</a>
+	</div>

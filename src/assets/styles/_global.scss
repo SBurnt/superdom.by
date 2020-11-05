@@ -39,3 +39,14 @@
 		max-width: 100%;
 	}
 }
+
+.btn {
+	display: inline-block;
+
+	line-height: 100%;
+	color: $color-primary;
+
+	background-color: transparent;
+	border: none;
+	outline: none;
+}

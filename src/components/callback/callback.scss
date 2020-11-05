@@ -1,0 +1,13 @@
+.callback {
+	&__btn {
+		padding: 7px 16px;
+
+		font-weight: 700;
+		font-size: 15px;
+		line-height: 1;
+		color: $color-red;
+
+		border: 1px solid $color-red;
+		border-radius: 5px;
+	}
+}

@@ -1,0 +1,29 @@
+.phones {
+	position: relative;
+
+	margin-right: 30px;
+	padding-left: 26px;
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	font-family: 'PT Sans';
+
+	&::before {
+		content: '';
+		position: absolute;
+		left: 0;
+
+		width: 12px;
+		height: 18px;
+
+		background: url(/assets/images/ico/ico-phone-header.svg) no-repeat;
+		background-size: contain;
+	}
+
+	&__main-link {
+		span {
+			color: #a5a5a5;
+		}
+	}
+}

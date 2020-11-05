@@ -3,7 +3,11 @@ body {
 	min-height: 100vh;
 	min-height: -webkit-fill-available;
 
-	font-family: 'Ubuntu', 'Times New Roman', Arial, sans-serif;
+	font-size: 16px;
+	font-family: 'Montserrat', 'Times New Roman', Arial, sans-serif;
+	color: $color-primary;
+
+	background-color: $bg-body;
 }
 
 .wrapper {

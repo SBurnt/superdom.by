@@ -1,0 +1,18 @@
+<div class="phones">
+	<a class="phones__main-link" href="tel:+375000000000">
+		+ 375 (00) <span>000-00-00</span></a>
+	{# <ul class="phone__dropdown-list">
+				<li>
+					<a class="phones__main-link" href="tel:+375000000000">
+						<span>+ 375 (00) </span>000-00-00</a>
+				</li>
+				<li>
+					<a class="phones__main-link" href="tel:+375000000000">
+						<span>+ 375 (00) </span>000-00-00</a>
+				</li>
+				<li>
+					<a class="phones__main-link" href="tel:+375000000000">
+						<span>+ 375 (00) </span>000-00-00</a>
+				</li>
+			</ul> #}
+</div>

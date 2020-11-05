@@ -1,0 +1,25 @@
+.address {
+	position: relative;
+	flex-grow: 1;;
+
+	padding-left: 27px;
+
+	font-size: 14px;
+	line-height: 17px;
+
+	&::before {
+		content: '';
+		position: absolute;
+		left: 0;
+
+		width: 14px;
+		height: 20px;
+
+		background: url(/assets/images/ico/ico-map-marker.svg) no-repeat;
+		background-size: contain;
+	}
+
+	&__city {
+		padding-right: 15px;
+	}
+}

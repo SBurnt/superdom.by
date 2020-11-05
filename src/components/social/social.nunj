@@ -1,0 +1,7 @@
+<ul class="social">
+	<li class="social__item">
+		<a class="social__link" href="https://www.instagram.com/superdom.by/">
+			<img class="social__img" src="assets/images/ico/ico-instagramm.svg" alt="ico-instagramm">
+		</a>
+	</li>
+</ul>

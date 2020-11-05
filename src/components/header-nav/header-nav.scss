@@ -1,0 +1,101 @@
+.header__nav {
+	.nav {
+		&__items {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		&__item {
+			position: relative;
+
+			display: flex;
+			align-items: center;
+
+			cursor: pointer;
+
+			&:hover {
+				.bricks-ico path,
+				.price-ico rect {
+					fill: $color-red;
+				}
+
+				> .nav__link {
+					color: $color-red;
+				}
+
+				&.nav-arrow {
+					&::after {
+						border-color: $color-red;
+						transform: translateY(0) rotate(-135deg);
+
+						transition: transform 0.4s ease-in-out;
+					}
+				}
+
+				.submenu {
+					display: block;
+				}
+			}
+
+			.bricks-ico {
+				margin-right: 15px;
+			}
+
+			.price-ico {
+				margin-left: 15px;
+			}
+
+			&.nav-arrow {
+				position: relative;
+
+				padding-right: 23px;
+				&::after {
+					content: '';
+					position: absolute;
+					top: 50%;
+					right: 0;
+
+					width: 8px;
+					height: 8px;
+
+					border-right: 2px solid #757575;
+					border-bottom: 2px solid #757575;
+					transform: translateY(-50%) rotate(45deg);
+
+					transition: transform 0.1s ease-in-out;
+				}
+			}
+		}
+
+		&__link {
+			display: block;
+			padding: 19px 0;
+
+			font-weight: 700;
+			font-size: 16px;
+			font-family: 'PT Sans';
+			color: $color-nav;
+		}
+	}
+
+	.submenu {
+		position: absolute;
+		top: 56px;
+		right: 0;
+		left: 0;
+		z-index: 20;
+
+		display: none;
+		width: max-content;
+		padding: 20px 40px;
+
+		background: $bg-header;
+		border-left: 2px solid $color-red;
+		border-radius: 0 0 2px 0;
+		box-shadow: 0 0 30px rgba(0, 0, 0, 0.75);
+
+		svg {
+			margin-right: 15px;
+		}
+	}
+}

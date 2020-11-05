@@ -1,12 +1,11 @@
+@import '../header-top/header-top';
+@import '../header-nav/header-nav';
+
 .header {
-	padding: 20px 0;
-	background: #ccc;
+	background-color: $bg-header;
+	&__wrap {
+		position: relative;
 
-	@include media("max", "md") {
-    height: 200px;
+		padding-left: 112px;
 	}
-
-	@include media("max", "xs") {
-    width: 100%;
-  }
 }
