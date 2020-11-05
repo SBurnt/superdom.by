@@ -1,0 +1,14 @@
+.footer__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0;
+
+	.logo {
+		&__wrap {
+			width: 63px;
+			height: 63px;
+			margin-right: auto;
+		}
+	}
+}

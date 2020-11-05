@@ -1,0 +1,10 @@
+<div class="footer__wrap">
+	<div class="container">
+		<div class="footer__top">
+			{% include '../../../components/logo/logo.nunj' %}
+			{% include '../../../components/social/social.nunj' %}
+			{% include '../../../components/phones/phones.nunj' %}
+			{% include '../../../components/callback/callback.nunj' %}
+		</div>
+	</div>
+</div>

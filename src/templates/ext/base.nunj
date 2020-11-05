@@ -17,9 +17,8 @@
 
 			{% block content %}{% endblock content %}
 
-			<footer class="footer">
-				<div class="container">footer</div>
-			</footer>
+			{% include '../../components/footer/footer.nunj' %}
+
 		</div>
 		{% block scripts %}
 			<script src="assets/js/bundle.js?hash"></script>

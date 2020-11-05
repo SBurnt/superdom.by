@@ -1,0 +1,18 @@
+<div class="footer__wrap">
+	<div class="container">
+		<div class="footer__middle">
+			<div class="footer__nav">
+				<ul class="nav__items">
+					{% for item in navItems %}
+						<li class="nav__item{% if item.classActive == "active" %} active{% endif %} ">
+							<a href="{{ item.path }}" class="nav__link">{{ item.name }}</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+			<div class="footer__address">
+				ООО «Триовист», юр.адрес: 220020, Минск,<br> пр. Победителей, 100, оф. 203. В торговом реестре<br> с 23 июня 2010г. УНП 190806803. Регистрация №190806803, 22.02.2007, Мингорисполком.
+			</div>
+		</div>
+	</div>
+</div>

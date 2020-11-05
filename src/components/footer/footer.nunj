@@ -1,0 +1,5 @@
+<footer class="footer">
+	{% include './footer__top/footer__top.nunj' %}
+	{% include './footer__middle/footer__middle.nunj' %}
+	{% include './footer__bottom/footer__bottom.nunj' %}
+</footer>

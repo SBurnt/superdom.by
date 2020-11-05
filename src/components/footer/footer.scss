@@ -1,0 +1,16 @@
+@import 'footer__top/footer__top';
+@import 'footer__middle/footer__middle';
+@import 'footer__bottom/footer__bottom';
+
+.footer {
+	padding-bottom: 20px;
+
+	background-color: $bg-header;
+	&__wrap {
+		position: relative;
+
+		&:nth-child(odd) {
+			background-color: $bg-body;
+		}
+	}
+}

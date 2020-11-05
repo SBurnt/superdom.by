@@ -1,0 +1,45 @@
+.footer__bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 0;
+
+	font-size: 12px;
+	line-height: 16px;
+	font-family: $pt-sans;
+
+	.site-map {
+		position: relative;
+
+		padding-left: 24px;
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 5px;
+			left: 0;
+
+			width: 15px;
+			height: 13px;
+
+			background: url(../images/ico/ico-site-map.svg) no-repeat;
+		}
+
+		&__link {
+			padding-bottom: 3px;
+
+			color: $color-primary;
+
+			border-bottom: 1px solid $color-primary;
+		}
+	}
+
+	.site-dev {
+		display: flex;
+		align-items: center;
+
+		span {
+			margin-right: 15px;
+		}
+	}
+}
