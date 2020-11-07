@@ -1,0 +1,29 @@
+<div class="advantages">
+	<div class="container">
+		<div class="section__inner">
+			<h2 class="section__title">кирпич realbrick</h2>
+			<ul class="advantages__list">
+				<li class="advantages__item">
+					<img class="advantages__img" src="assets/images/main/advantages/advantages-01.png" alt="Высокая жаростойкость">
+					<span class="advantages__text">высокая жаростойкость</span>
+				</li>
+				<li class="advantages__item">
+					<span class="advantages__text">водопоглощение менее 4%</span>
+					<img class="advantages__img" src="assets/images/main/advantages/advantages-02.png" alt="водопоглощение менее 4%">
+				</li>
+				<li class="advantages__item">
+					<img class="advantages__img" src="assets/images/main/advantages/advantages-03.png" alt="Использование различных эффектов дизайна">
+					<span class="advantages__text">Использование различных эффектов дизайна</span>
+				</li>
+				<li class="advantages__item">
+					<span class="advantages__text">Глина, кристально чистый песок</span>
+					<img class="advantages__img" src="assets/images/main/advantages/advantages-04.png" alt="Глина, кристально чистый песок">
+				</li>
+				<li class="advantages__item">
+					<img class="advantages__img" src="assets/images/main/advantages/advantages-05.png" alt="Экологичная продукция">
+					<span class="advantages__text">Экологичная продукция</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

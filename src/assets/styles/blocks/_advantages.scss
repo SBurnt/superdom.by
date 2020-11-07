@@ -1,0 +1,98 @@
+.advantages {
+	.section__title {
+		@include section__title();
+	}
+
+	&__list {
+		display: flex;
+		justify-content: space-between;
+
+		@include media('max', 'xl') {
+			flex-wrap: wrap;
+		}
+	}
+
+	&__item {
+		position: relative;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 25%;
+
+		&:nth-child(even) {
+			margin-top: 100px;
+
+			&::before {
+				top: 40px;
+
+				@include media('max', 'xl') {
+					// top: 40px;
+				}
+
+				@include media('max', 'md') {
+					top: 30px;
+				}
+			}
+		}
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 50%;
+
+			width: 150px;
+			height: 150px;
+
+			background-color: $color-gray-dark;
+			background-color: #3b3838;
+			border-radius: 50%;
+			transform: translateX(-50%);
+
+			@include media('max', 'md') {
+				width: 71px;
+				height: 71px;
+			}
+		}
+
+		@include media('max', 'xl') {
+			width: calc(100% / 2);
+			&:nth-child(even) {
+				margin-top: 0;
+			}
+
+			&:nth-child(3) {
+				width: 100%;
+			}
+
+			&:nth-child(4) {
+				order: 5;
+			}
+		}
+	}
+
+	&__img {
+		position: relative;
+
+		@include media('max', 'md') {
+			width: 50%;
+		}
+	}
+
+	&__text {
+		width: 170px;
+		margin-bottom: 18px;
+
+		font-size: 14px;
+		line-height: 17px;
+		text-align: center;
+		text-transform: lowercase;
+
+		@include media('max', 'md') {
+			width: 110px;
+			font-size: 10px;
+			line-height: 12px;
+		}
+	}
+}

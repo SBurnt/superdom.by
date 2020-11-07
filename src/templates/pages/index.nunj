@@ -4,6 +4,7 @@
 
 	<main class="main">
 		{% include '../blocks/banner.nunj' %}
+		{% include '../blocks/advantages.nunj' %}
 	</main>
 
 {% endblock content %}
