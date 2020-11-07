@@ -29,6 +29,9 @@
   "unitless-zero": true,
   "vendor-prefix-align": true,
   "sort-order": [
+		[
+			"$include"
+		],
     [
       "content",
       "position",
@@ -437,6 +440,9 @@
       "-webkit-clip-path",
       "clip-path",
       "zoom"
-    ]
+		],
+		[
+			"$include media"
+		]
   ]
 }

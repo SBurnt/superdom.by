@@ -1,0 +1,20 @@
+<section class="banner">
+	<div class="container">
+		<div class="section__inner banner__wrap">
+			<div class="section__title-wrap">
+				<h2 class="section__title">Кирпич и плитка</h2>
+				<p class="section__subtitle">ручной формовки</p>
+				<span class="section__brand-name">RealBrick<sup>®</sup>
+				</span>
+			</div>
+			<img class='banner__brand-img' src="assets/images/ico/ico-banner-mark.svg" alt="иконка марки RealBrick">
+			<p class="banner__description">Компания “Супер Дом” предлагает широкий ассортимент  облицовочного кирпича и плитки высококласного уровня</p>
+			<p class="banner__info">Мы являемся производителем минерального кирпича ручной формовки торговой марки RealBrick<sup>®</sup>, и плитки ручной работы уже более <span>12 лет</span>!</p>
+			<div class="banner__contacts">
+				{% include '../../components/address/address.nunj' %}
+				{% include '../../components/phones/phones.nunj' %}
+				{% include '../../components/opening-hours/opening-hours.nunj' %}
+			</div>
+		</div>
+	</div>
+</section>

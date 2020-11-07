@@ -1,0 +1,211 @@
+.banner {
+	background-color: $bg-dark1;
+	background-image: url(../images/main/bg-banner.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	@include media('max', 'lg') {
+		background-position-x: -80px;
+	}
+
+	@include media('max', 'xs') {
+		background-size: cover;
+		background-position-x: -130px;
+	}
+
+	&__wrap {
+		width: 56vw;
+		// min-height: 690px;
+		margin-left: auto;
+		padding-left: 120px;
+
+		background-color: $bg-dark1;
+
+		@include media('max', 'xl') {
+			padding-left: 60px;
+		}
+		@include media('max', 'lg') {
+			width: 70vw;
+			padding-left: 30px;
+		}
+	}
+
+	.section {
+		&__title-wrap {
+			width: max-content;
+		}
+
+		&__title {
+			@include section__title(left, 0, 0);
+
+			margin-bottom: 5px;
+
+			font-size: 55px;
+			line-height: 66px;
+
+			@include media('max', 'lg') {
+				margin-bottom: 13px;
+
+				font-size: 20px;
+				line-height: 24px;
+
+				&::before {
+					width: 60px;
+				}
+			}
+		}
+
+		&__subtitle {
+			margin-bottom: 1px;
+
+			font-weight: 300;
+			font-size: 20px;
+			line-height: 24px;
+			text-align: right;
+			text-transform: uppercase;
+
+			@include media('max', 'lg') {
+				margin-bottom: 4px;
+
+				font-size: 8px;
+				line-height: 10px;
+			}
+		}
+
+		&__brand-name {
+			display: block;
+
+			font-size: 15px;
+			line-height: 20px;
+			text-align: right;
+			color: $color-gray-dark;
+
+			@include media('max', 'lg') {
+				font-size: 8px;
+			}
+		}
+	}
+
+	&__brand-img {
+		margin-bottom: 35px;
+
+		@include media('max', 'lg') {
+			width: 20px;
+			height: 20px;
+			margin-top: -20px;
+			margin-bottom: 30px;
+		}
+	}
+
+	&__description {
+		margin-bottom: 72px;
+
+		font-size: 25px;
+		line-height: 30px;
+		color: $color-gray;
+
+		@include media('max', 'xl') {
+			font-size: 23px;
+		}
+		@include media('max', 'lg') {
+			margin-bottom: 20px;
+
+			font-size: 11px;
+			line-height: 13px;
+		}
+	}
+
+	&__info {
+		font-size: 15px;
+		line-height: 20px;
+		color: $color-gray-dark;
+
+		@include media('max', 'lg') {
+			font-size: 9px;
+			line-height: 13px;
+		}
+
+		span {
+			font-weight: 600;
+		}
+	}
+
+	&__contacts {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 102px;
+
+		color: $color-gray-dark;
+
+		@include media('max', 'lg') {
+			flex-direction: column;
+			margin-top: 29px;
+		}
+	}
+
+	.address {
+		flex-grow: 0;
+
+		@include media('max', 'lg') {
+			font-size: 9px;
+			line-height: 11px;
+			margin-bottom: 5px;
+			padding-left: 15px;
+		}
+
+		&::before {
+			background-image: url(../images/ico/ico-map-marker-light.svg);
+
+			@include media('max', 'lg') {
+				width: 6px;
+				height: 9px;
+			}
+		}
+
+		&__city {
+			display: none;
+		}
+	}
+
+	.phones {
+		font-weight: 400;
+
+		@include media('max', 'lg') {
+			font-size: 9px;
+			line-height: 11px;
+			margin-bottom: 5px;
+			padding-left: 13px;
+		}
+
+		&::before {
+			width: 13px;
+			height: 20px;
+
+			background-image: url(../images/ico/ico-phone-header-light.svg);
+
+			@include media('max', 'lg') {
+				width: 6px;
+				height: 9px;
+			}
+		}
+
+		&__main-link span {
+			color: $color-gray-dark;
+		}
+	}
+
+	.opening-hours {
+		@include media('max', 'lg') {
+			font-size: 9px;
+			line-height: 11px;
+			padding-left: 15px;
+		}
+
+		&::before {
+			@include media('max', 'lg') {
+				width: 8px;
+				height: 8px;
+			}
+		}
+	}
+}

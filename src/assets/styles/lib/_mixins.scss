@@ -21,6 +21,8 @@
 }
 
 @mixin hide-input-file {
+	@include hide-input;
+
 	right: 0;
 	left: auto;
 
@@ -28,8 +30,6 @@
 	height: auto;
 
 	font-size: 100px;
-
-	@include hide-input;
 }
 
 /* Grid */
@@ -142,5 +142,39 @@
 	}
 	& ::scrollbar-track-piece {
 		@content;
+	}
+}
+
+@mixin section__title($text-align: center, $el-pos: 50%, $trans: -50%) {
+	position: relative;
+
+	margin-bottom: 70px;
+
+	font-weight: 300;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: $text-align;
+	text-transform: uppercase;
+
+	@include media('max', 'lg') {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	&::before {
+		content: '';
+		position: absolute;
+		bottom: -18px;
+		left: $el-pos;
+
+		width: 100px;
+		height: 2px;
+
+		background: $color-primary;
+		transform: translateX($trans);
+
+		@include media('max', 'lg') {
+			bottom: -10px;
+		}
 	}
 }
