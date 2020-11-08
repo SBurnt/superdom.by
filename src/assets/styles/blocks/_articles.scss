@@ -1,0 +1,135 @@
+.articles {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+
+    @include media("max", "lg") {
+      flex-direction: column;
+    }
+  }
+
+  &__left,
+  &__right {
+    width: calc(50% - 20px);
+
+    @include media("max", "lg") {
+      width: 100%;
+    }
+  }
+
+  .left {
+    @include media("max", "lg") {
+      flex-direction: column;
+    }
+
+    &__list {
+      display: flex;
+
+      @include media("max", "md") {
+        flex-wrap: wrap;
+      }
+    }
+
+    &__item {
+      width: 50%;
+
+      @include media("max", "lg") {
+        margin-bottom: 40px;
+      }
+      @include media("max", "md") {
+        width: 100%;
+      }
+
+      &:first-child {
+        margin-right: 20px;
+
+        @include media("max", "md") {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .figure {
+    &__img {
+      width: 100%;
+      height: 184px;
+      margin-bottom: 13px;
+
+      object-fit: cover;
+
+      @include media("max", "md") {
+        height: 120px;
+      }
+    }
+
+    &__text {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      -webkit-line-clamp: 2;
+
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 19px;
+
+      @include media("max", "md") {
+        font-size: 13px;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .right {
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    &__item {
+      width: 50%;
+      margin-bottom: 25px;
+
+      @include media("max", "md") {
+        width: 100%;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+
+        border-bottom: 1px solid $color-gray;
+      }
+
+      &:nth-child(-n + 2) {
+        padding-bottom: 25px;
+
+        border-bottom: 1px solid $color-gray;
+
+        @include media("max", "md") {
+          padding-bottom: 15px;
+        }
+      }
+    }
+
+    &__link {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      padding-right: 15px;
+      overflow: hidden;
+      -webkit-line-clamp: 3;
+
+      font-size: 14px;
+      line-height: 20px;
+
+      @include media("max", "md") {
+        font-size: 13px;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

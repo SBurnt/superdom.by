@@ -1,0 +1,45 @@
+<section class="articles">
+	<div class="container">
+		<div class="section__inner">
+			<h2 class="section__title">статьи</h2>
+			<div class="articles__content">
+				<div class="articles__left">
+					<ul class="left__list">
+						<li class="left__item">
+							<a href="articles/article.html" class="left__link">
+								<figure class="figure">
+									<img class="figure__img" src="assets/images/articles/articles-01.png" alt="стена с кирпичами">
+									<figcaption class="figure__text">Рамки и место обучения кадров позволяет выполнять важные Рамки и место обучения кадров позволяет выполнять важные</figcaption>
+								</figure>
+							</a>
+						</li>
+						<li class="left__item">
+							<a href="articles/article.html" class="left__link">
+								<figure class="figure">
+									<img class="figure__img" src="assets/images/articles/articles-02.png" alt="стена с кирпичами">
+									<figcaption class="figure__text">Cоображения высшего порядка</figcaption>
+								</figure>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="articles__right">
+					<ul class="right__list">
+						<li class="right__item">
+							<a class="right__link" href="articles/article.html">Дальнейшее развитие различных форм деятельности позволяет оценить значение позволяет оценить значение</a>
+						</li>
+						<li class="right__item">
+							<a class="right__link" href="articles/article.html">Богатый опыт укрепление и развитие структуры обеспечивает широкий</a>
+						</li>
+						<li class="right__item">
+							<a class="right__link" href="articles/article.html">Разнообразный и богатый опыт укрепление и развитие структуры обеспечивает широкому позволяет оценить значение</a>
+						</li>
+						<li class="right__item">
+							<a class="right__link" href="articles/article.html">Сложившаяся структура организации требуют от нас анализа существенных финансовых услуг</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

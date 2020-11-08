@@ -8,6 +8,7 @@
 		{% include '../blocks/info-main.nunj' %}
 		{% include '../blocks/catalog-main.nunj' %}
 		{% include '../blocks/work-exx.nunj' %}
+		{% include '../blocks/articles.nunj' %}
 	</main>
 
 {% endblock content %}

@@ -120,7 +120,8 @@
       "overflow-x",
       "-ms-overflow-y",
       "overflow-y",
-      "-webkit-overflow-scrolling"
+			"-webkit-overflow-scrolling",
+			"-webkit-line-clamp"
     ],
     [
       "list-style",
@@ -351,7 +352,8 @@
       "cursor",
       "opacity",
       "-webkit-filter",
-      "filter"
+			"filter",
+			"object-fit"
     ],
     [
       "-webkit-transition",
