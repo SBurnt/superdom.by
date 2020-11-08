@@ -1,0 +1,29 @@
+{% from "../../components/brick-desc/brick-desc.nunj" import brickDesc %}
+
+<section class="info-main">
+	<div class="container">
+		<div class="section__inner">
+			<div class="novelty">
+				<h2 class="section__title">новинки</h2>
+				{{ brickDesc({
+				img: 'assets/images/main/info-main/bricks.png',
+				title: 'Кирпич керамический полнотелый',
+				disсription: 'Кирпич керамический рядовой полнотелый применяется для кладки каменных и армокаменных, внутренних стен...',
+				chart: true,
+				chart__percent: '8%',
+				chart__name: 'Водопоглощение'
+				}) }}
+			</div>
+			<div class="company">
+				<h2 class="section__title">о компании</h2>
+				<div class="company__content">
+					<p class="company__text">Создавая свои коллекции кирпича и плитки торговой марки RealBrick®, мы исключаем машинный труд на самых ответственных участках, «колдуя» над фактурой вручную, стараясь воспроизвести в нашем продукте все то, что так искусно создает столетиями Мастер-Природа.
+				</p>
+					<p class="company__text">Воссозданный нами старинный уникальный многокомпонентный минеральный состав кирпича и изобретенный нами и запатентованный способ формовки RealBrick® предоставляют нам право давать повышенную гарантию производителя на нашу продукцию.
+				</p>
+					<a href="about-company.html" class="btn company__btn-detail">Подробнее</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

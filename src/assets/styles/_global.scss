@@ -66,3 +66,39 @@
 		padding: 30px 0;
 	}
 }
+
+.section__title {
+	position: relative;
+
+	margin-bottom: 70px;
+
+	font-weight: 300;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+
+	@include media('max', 'lg') {
+		margin-bottom: 40px;
+
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	&::before {
+		content: '';
+		position: absolute;
+		bottom: -18px;
+		left: 50%;
+
+		width: 100px;
+		height: 2px;
+
+		background: $color-primary;
+		transform: translateX(-50%);
+
+		@include media('max', 'lg') {
+			bottom: -10px;
+		}
+	}
+}

@@ -1,8 +1,4 @@
 .advantages {
-	.section__title {
-		@include section__title();
-	}
-
 	&__list {
 		display: flex;
 		justify-content: space-between;

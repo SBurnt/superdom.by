@@ -1,0 +1,149 @@
+.brick-desc {
+	display: flex;
+	min-height: 190px;
+
+	@include media('max', 'md') {
+		min-height: auto;
+	}
+
+	&__content {
+		display: flex;
+		padding: 15px;
+
+		background-color: $bg-dark1;
+
+		@include media('max', 'md') {
+			padding: 10px;
+		}
+	}
+
+	&__img {
+		// width: 100%;
+		// max-width: 270px;
+		width: 50%;
+
+		@include media('max', 'xl') {
+			width: 40%;
+		}
+		@include media('max', 'lg') {
+			width: 50%;
+		}
+		@include media('max', 'md') {
+			width: 20%;
+		}
+
+		object-fit: cover;
+	}
+
+	&__text {
+		margin-right: 5px;
+	}
+
+	&__title {
+		margin-bottom: 8px;
+
+		font-weight: 700;
+		font-size: 13px;
+		line-height: 16px;
+
+		@include media('max', 'md') {
+			margin-bottom: 18px;
+
+			font-size: 10px;
+			line-height: 12px;
+		}
+	}
+
+	&__disсription {
+		font-size: 12px;
+		line-height: 14px;
+
+		@include media('max', 'md') {
+			font-size: 9px;
+			line-height: 11px;
+		}
+	}
+
+	&__characteristic {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	&__btn-detail {
+		padding: 6px;
+
+		font-size: 12px;
+		line-height: 16px;
+
+		border: 1px solid $color-gray-dark;
+		border-radius: 5px;
+
+		@include media('max', 'md') {
+			font-size: 8px;
+			line-height: 10px;
+		}
+	}
+
+	.chart {
+		&__pie {
+			position: relative;
+
+			width: 68px;
+			height: 68px;
+			margin: 0 auto;
+
+			@include media('max', 'md') {
+				width: 55px;
+				height: 55px;
+			}
+		}
+
+		&__circle-bg {
+			fill: none;
+			stroke: $bg-body;
+			stroke-width: 2;
+		}
+
+		&__circle {
+			transform: rotate(0deg);
+			transform-origin: 50% 50%;
+
+			fill: none;
+			stroke: $color-red;
+			// stroke-linecap: round; //закругление
+			stroke-width: 2;
+		}
+
+		&__percent {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+
+			font-size: 13px;
+
+			transform: translate(-50%, -50%);
+
+			@include media('max', 'md') {
+				font-size: 10px;
+			}
+		}
+
+		&__name {
+			display: block;
+			margin: 10px 0 15px;
+
+			font-weight: 500;
+			font-size: 8px;
+			line-height: 10px;
+			text-transform: uppercase;
+			letter-spacing: 0.045em;
+
+			@include media('max', 'md') {
+				font-size: 5px;
+				line-height: 6px;
+			}
+		}
+	}
+}

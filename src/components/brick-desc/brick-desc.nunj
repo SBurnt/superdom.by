@@ -1,0 +1,26 @@
+{% macro brickDesc(props) %}
+	<div class="brick-desc">
+		<img class="brick-desc__img" src="{{ props.img }}" alt="brick">
+		<div class="brick-desc__content">
+			<div class="brick-desc__text">
+				<h3 class="brick-desc__title">{{ props.title }}</h3>
+				<p class="brick-desc__disсription">{{ props.disсription }}</p>
+			</div>
+			<div class="brick-desc__characteristic">
+				{% if props.chart %}
+					<div class="chart">
+						<div class="chart__pie">
+							<svg viewBox="0 0 36 36" class="chart__circular">
+								<path class="chart__circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+								<path class="chart__circle" stroke-dasharray="8, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+							</svg>
+							<span class="chart__percent">{{ props.chart__percent }}</span>
+						</div>
+						<span class="chart__name">{{ props.chart__name }}</span>
+					</div>
+				{% endif %}
+				<a class="btn brick-desc__btn-detail" href="/detail.html">Подробнее</a>
+			</div>
+		</div>
+	</div>
+{% endmacro %}
