@@ -7,6 +7,7 @@
 		{% include '../blocks/advantages.nunj' %}
 		{% include '../blocks/info-main.nunj' %}
 		{% include '../blocks/catalog-main.nunj' %}
+		{% include '../blocks/work-exx.nunj' %}
 	</main>
 
 {% endblock content %}

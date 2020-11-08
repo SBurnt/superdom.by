@@ -1,0 +1,74 @@
+{% from "../../components/brick-desc/brick-desc.nunj" import brickDesc %}
+
+<section class="work-exx">
+	<div class="container">
+		<h2 class="section__title">примеры работ наших клиентов</h2>
+		<ul class="work-exx__list">
+			<li class="work-exx__item">
+				{{ brickDesc({
+						img: 'assets/images/main/work-exx/work-exx-01.png',
+						title: 'ЕМКА – стильная женская одежда',
+						disсription: 'Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией <span>REAL BRIK “Античная глина”</span>, бутик был преобразован в новое дизайнерское решение.',
+						chart: true,
+						chart__percent: '75',
+						chart__name: 'яркость цвета'
+					}) }}
+			</li>
+			<li class="work-exx__item">
+				{{ brickDesc({
+						img: 'assets/images/main/work-exx/work-exx-02.png',
+						title: 'Загородный коттедж',
+						disсription: 'Идеальное стильное решение для загородного дома с использованием Коллекции 1 <span>“Ригельный кирпич” RB 1-03</span> обеспечит яркий контраст с фоновым мотонным цветом.',
+						chart: true,
+						chart__percent: '105',
+						chart__name: 'запас прочности'
+					}) }}
+			</li>
+			<li class="work-exx__item">
+				{{ brickDesc({
+						img: 'assets/images/main/work-exx/work-exx-03.png',
+						title: 'Оформление санузла крафтовым кирпичом',
+						disсription: 'Отличный выбор покрытия стен нашей <span>Коллекцией 2 крафтовым кирпичом mono</span>, который отлично подойдет для стиля лофт.',
+						chart: true,
+						chart__percent: '8',
+						chart__name: 'Водопоглощение'
+					}) }}
+			</li>
+			<li class="work-exx__item">
+				{{ brickDesc({
+						img: 'assets/images/main/work-exx/work-exx-04.png',
+						title: 'Отделка обособленных частей интерьера',
+						disсription: 'Кирпич керамический рядовой полнотелый применяется для кладки каменных и армокаменных, внутренних стен и других элементов зданий и сооружений с последующей отделкой.',
+						chart: false
+					}) }}
+			</li>
+			<li class="work-exx__item">
+				{{ brickDesc({
+						img: 'assets/images/main/work-exx/work-exx-05.png',
+						title: 'Кладка 50% внешнего фасада',
+						disсription: 'Применяется для кладки каменных и армокаменных наружных и внутренних стен, других элементов зданий и сооружений.',
+						chart: false
+					}) }}
+			</li>
+			<li class="work-exx__item">
+				{{ brickDesc({
+						img: 'assets/images/main/work-exx/work-exx-06.png',
+						title: 'Оформление внутреннего интерьера',
+						disсription: 'Кирпич керамический рядовой полнотелый применяется для кладки каменных и армокаменных, внутренних стен и других элементов зданий и сооружений с последующей отделкой.',
+						chart: false
+					}) }}
+			</li>
+			<li class="work-exx__item">
+				{{ brickDesc({
+						img: 'assets/images/main/work-exx/work-exx-07.png',
+						title: 'Отделка ограждения',
+						disсription: 'Применяется для кладки каменных и армокаменных наружных и внутренних стен, др. элементов зданий и сооружений.',
+						chart: false
+					}) }}
+			</li>
+		</ul>
+	</div>
+	<div class="work-exx__btn-more">
+		<a href="gallery.html" class="work-exx__link">посмотреть больше работ</a>
+	</div>
+</section>

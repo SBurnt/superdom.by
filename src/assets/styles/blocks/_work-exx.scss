@@ -1,0 +1,180 @@
+.work-exx {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -25px;
+
+    @include media("max", "lg") {
+      margin-right: 0;
+    }
+  }
+
+  &__item {
+    width: calc(100% / 3 - 25px);
+    margin-right: 25px;
+    margin-bottom: 25px;
+
+    @include media("max", "lg") {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+
+    &:nth-child(n + 4) {
+      width: calc(100% / 4 - 25px);
+
+      @include media("max", "lg") {
+        display: none;
+      }
+
+      .brick-desc {
+        &__content {
+          flex-direction: column;
+        }
+
+        &__img {
+          height: 162px;
+        }
+
+        &__text {
+          flex-grow: 1;
+        }
+
+        &__btn-detail {
+          margin-top: 20px;
+          margin-left: auto;
+        }
+      }
+    }
+
+    &:hover {
+      .brick-desc__content {
+        background-color: $bg-gray3;
+      }
+    }
+  }
+
+  &__btn-more {
+    text-align: center;
+
+    background-color: $bg-dark1;
+  }
+
+  &__link {
+    position: relative;
+
+    display: inline-block;
+    padding: 20px 50px;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    @include media("max", "md") {
+      padding: 20px 25px;
+
+      font-size: 12px;
+      line-height: 14px;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 0;
+
+      width: 8px;
+      height: 8px;
+
+      border-right: 2px solid $color-primary;
+      border-bottom: 2px solid $color-primary;
+      transform: translateY(-50%) rotate(-45deg);
+    }
+  }
+
+  .brick-desc {
+    flex-direction: column;
+    height: 100%;
+    min-height: initial;
+
+    &__img {
+      width: 100%;
+      height: 187px;
+
+      @include media("max", "lg") {
+        height: 122px;
+      }
+    }
+
+    &__content {
+      flex-grow: 1;
+
+      background-color: $bg-gray2;
+    }
+
+    &__text {
+      margin-right: 15px;
+    }
+
+    &__title {
+      font-size: 16px;
+      line-height: 19px;
+
+      @include media("max", "md") {
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+
+    &__disсription {
+      font-size: 13px;
+      line-height: 16px;
+
+      @include media("max", "md") {
+        font-size: 12px;
+        line-height: 14px;
+      }
+
+      span {
+        color: $color-red-dark;
+      }
+    }
+
+    .chart {
+      &__pie {
+        width: 60px;
+        height: 60px;
+
+        @include media("max", "md") {
+          width: 46px;
+          height: 46px;
+        }
+      }
+
+      &__circle-bg {
+        stroke: $bg-dark1;
+      }
+
+      &__name {
+        @include media("max", "lg") {
+          font-size: 8px;
+          line-height: 10px;
+        }
+      }
+    }
+
+    &__btn-detail {
+      padding: 11px 13px;
+
+      font-size: 13px;
+
+      background-color: $bg-dark1;
+      border: none;
+
+      &:hover {
+        background-color: $color-red;
+      }
+    }
+  }
+}

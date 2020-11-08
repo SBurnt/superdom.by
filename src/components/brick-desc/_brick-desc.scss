@@ -72,13 +72,18 @@
 	}
 
 	&__btn-detail {
-		padding: 6px;
+		padding: 6px 13px;
 
 		font-size: 12px;
 		line-height: 16px;
+		font-family: $pt-sans;
 
 		border: 1px solid $color-gray-dark;
 		border-radius: 5px;
+
+		&:hover {
+			background-color: $color-red;
+		}
 
 		@include media('max', 'md') {
 			font-size: 8px;
@@ -137,6 +142,7 @@
 			font-weight: 500;
 			font-size: 8px;
 			line-height: 10px;
+			text-align: center;
 			text-transform: uppercase;
 			letter-spacing: 0.045em;
 
