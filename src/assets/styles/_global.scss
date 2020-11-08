@@ -40,6 +40,11 @@
 	}
 }
 
+a,
+a:visited {
+	color: $color-primary;
+}
+
 .btn {
 	display: inline-block;
 

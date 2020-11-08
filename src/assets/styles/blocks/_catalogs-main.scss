@@ -1,0 +1,17 @@
+.catalogs-main {
+	background-image: url(../images/main/catalogs-main/bg-catalogs-main.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: auto 90%;
+
+	@include media('max', 'xl') {
+		background-position-x: -80px;
+	}
+	@include media('max', 'lg') {
+		background-position: top center;
+		background-size: auto 60%;
+	}
+	@include media('max', 'md') {
+		background-size: auto 35%;
+	}
+}

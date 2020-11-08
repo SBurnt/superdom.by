@@ -1,0 +1,28 @@
+<div class="catalogs">
+	<ul class="catalogs__list">
+		<li class="catalogs__item big">
+			<img class="catalogs__img" src="assets/images/catalogs/catalogs-01.png" alt="Плитка ручной формовки">
+			<a href="catalogs/hand-molded-tiles.html" class="catalogs__link">
+				<h3 class="catalogs__item-info">Плитка ручной формовки</h3>
+			</a>
+		</li>
+		<li class="catalogs__item">
+			<img class="catalogs__img" src="assets/images/catalogs/catalogs-02.png" alt="Кирпич ручной формовки">
+			<a href="catalogs/hand-molded-bricks.html" class="catalogs__link">
+				<h3 class="catalogs__item-info">Кирпич ручной формовки</h3>
+			</a>
+		</li>
+		<li class="catalogs__item">
+			<img class="catalogs__img" src="assets/images/catalogs/catalogs-03.png" alt="Декоративные элементы">
+			<a href="catalogs/decorative-elements.html" class="catalogs__link">
+				<h3 class="catalogs__item-info">Декоративные элементы</h3>
+			</a>
+		</li>
+		<li class="catalogs__item big">
+			<img class="catalogs__img" src="assets/images/catalogs/catalogs-04.png" alt="Сопутствующие товары">
+			<a href="catalogs/related-products.html" class="catalogs__link">
+				<h3 class="catalogs__item-info">Сопутствующие товары</h3>
+			</a>
+		</li>
+	</ul>
+</div>
