@@ -1,0 +1,8 @@
+<section class="catalog-main">
+	<div class="container">
+		<div class="section__inner">
+			<h2 class="section__title">каталог</h2>
+			{% include '../../components/catalog/catalog.nunj' %}
+		</div>
+	</div>
+</section>

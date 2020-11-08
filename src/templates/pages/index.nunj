@@ -6,7 +6,7 @@
 		{% include '../blocks/banner.nunj' %}
 		{% include '../blocks/advantages.nunj' %}
 		{% include '../blocks/info-main.nunj' %}
-		{% include '../blocks/catalogs-main.nunj' %}
+		{% include '../blocks/catalog-main.nunj' %}
 	</main>
 
 {% endblock content %}
