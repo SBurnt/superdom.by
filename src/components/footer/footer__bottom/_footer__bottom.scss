@@ -8,10 +8,20 @@
 	line-height: 16px;
 	font-family: $pt-sans;
 
+	@include media('max', 'sm') {
+		flex-wrap: wrap;
+		align-items: flex-start;
+	}
+
 	.site-map {
 		position: relative;
 
 		padding-left: 24px;
+
+		@include media('max', 'sm') {
+			order: 1;
+			// margin-top: -20px;
+		}
 
 		&::before {
 			content: '';
@@ -38,8 +48,18 @@
 		display: flex;
 		align-items: center;
 
+		@include media('max', 'sm') {
+			flex-direction: column;
+			align-items: flex-end;
+		}
+
 		span {
 			margin-right: 15px;
+
+			@include media('max', 'sm') {
+				margin-right: 0;
+				margin-bottom: 5px;
+			}
 		}
 	}
 }

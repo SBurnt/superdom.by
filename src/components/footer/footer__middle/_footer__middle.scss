@@ -4,6 +4,12 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 30px 0;
+
+		@include media('max', 'md') {
+			flex-direction: column;
+			align-items: flex-start;
+			padding: 15px 0;
+		}
 	}
 
 	&__nav {
@@ -20,6 +26,10 @@
 		line-height: 12px;
 		font-family: $pt-sans;
 		color: $color-nav;
+
+		@include media('max', 'md') {
+			margin-left: 0;
+		}
 	}
 
 	.nav {
@@ -31,6 +41,11 @@
 		&__item {
 			width: 25%;
 			padding: 10px 0;
+
+			@include media('max', 'md') {
+				width: calc(100% / 3);
+				padding: 8px 0;
+			}
 		}
 
 		&__link {
@@ -41,6 +56,10 @@
 			font-size: 14px;
 			font-family: $pt-sans;
 			color: $color-nav;
+
+			@include media('max', 'md') {
+				font-size: 13px;
+			}
 
 			&:hover {
 				color: $color-red;

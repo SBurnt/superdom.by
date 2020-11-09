@@ -4,11 +4,37 @@
 	align-items: center;
 	padding: 15px 0;
 
+	@include media('max', 'sm') {
+		flex-wrap: wrap;
+	}
+
 	.logo {
 		&__wrap {
 			width: 63px;
 			height: 63px;
 			margin-right: auto;
+
+			@include media('max', 'md') {
+				width: 37px;
+				height: 37px;
+			}
+		}
+	}
+
+	.phones {
+		@include media('max', 'md') {
+			padding-left: 22px;
+		}
+		@include media('max', 'sm') {
+			margin-right: 0;
+		}
+	}
+
+	.callback {
+		@include media('max', 'sm') {
+			flex-basis: auto;
+			margin: 0 auto;
+			margin-top: 13px;
 		}
 	}
 }
