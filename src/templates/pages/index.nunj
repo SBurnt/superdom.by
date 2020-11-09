@@ -9,6 +9,7 @@
 		{% include '../blocks/catalog-main.nunj' %}
 		{% include '../blocks/work-exx.nunj' %}
 		{% include '../blocks/articles.nunj' %}
+		{% include '../blocks/info-main2.nunj' %}
 	</main>
 
 {% endblock content %}

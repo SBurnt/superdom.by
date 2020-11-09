@@ -1,0 +1,60 @@
+<section class="info-main">
+	<div class="container">
+		<div class="section__inner">
+			<div class="advices">
+				<h2 class="section__title">советы</h2>
+				<div class="advices__content">
+					<ul class="advices__list">
+						<li class="advices__item">
+							<a class="advices__link" href="advices/advices.html">Как определить необходимое количество кирпича ручной формовки?</a>
+						</li>
+						<li class="advices__item">
+							<a class="advices__link" href="advices/advices.html">Защита камня от влаги и загрязнений при температурных перепадах.</a>
+						</li>
+						<li class="advices__item">
+							<a class="advices__link" href="advices/advices.html">Инструменты и приспособления для работы с кирпичом ручной формовки «Real Brick».</a>
+						</li>
+						<li class="advices__item">
+							<a class="advices__link" href="advices/advices.html">Общие правила укладки кирпича ручной формовки «Real Brick».</a>
+						</li>
+						<li class="advices__item">
+							<a class="advices__link" href="advices/advices.html">Правильная расшивка швов кладки.</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="certificates">
+				<h2 class="section__title">сертификаты</h2>
+				<div class="certificates__content">
+					<ul class="certificates__list">
+						<li class="certificates__item">
+							<a data-fslightbox="certificates" href="assets/images/certificates/certificate-01.png" class="certificates__link">
+								<img class="certificates__img" src="assets/images/certificates/certificate-01.png" alt="патент">
+							</a>
+						</li>
+						<li class="certificates__item">
+							<a data-fslightbox="certificates" href="assets/images/certificates/certificate-02.png" class="certificates__link">
+								<img class="certificates__img" src="assets/images/certificates/certificate-02.png" alt="патент">
+							</a>
+						</li>
+						<li class="certificates__item">
+							<a data-fslightbox="certificates" href="assets/images/certificates/certificate-03.png" class="certificates__link">
+								<img class="certificates__img" src="assets/images/certificates/certificate-03.png" alt="свидетельство">
+							</a>
+						</li>
+						<li class="certificates__item">
+							<a data-fslightbox="certificates" href="assets/images/certificates/certificate-04.png" class="certificates__link">
+								<img class="certificates__img" src="assets/images/certificates/certificate-04.png" alt="декларация">
+							</a>
+						</li>
+						<li class="certificates__item">
+							<a data-fslightbox="certificates" href="assets/images/certificates/certificate-05.png" class="certificates__link">
+								<img class="certificates__img" src="assets/images/certificates/certificate-05.png" alt="техническое свидетельство">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,70 +1,198 @@
 .info-main {
-	background-color: $bg-gray;
+  background-color: $bg-gray;
 
-	.section__inner {
-		display: flex;
-		justify-content: space-between;
+  .section__inner {
+    display: flex;
+    justify-content: space-between;
 
-		@include media('max', 'lg') {
-			flex-direction: column;
-		}
-	}
+    @include media("max", "lg") {
+      flex-direction: column;
+    }
+  }
 
-	.novelty,
-	.company {
-		width: calc(50% - 25px);
+  .novelty,
+  .company {
+    width: calc(50% - 25px);
 
-		@include media('max', 'lg') {
-			width: 100%;
-		}
-	}
+    @include media("max", "lg") {
+      width: 100%;
+    }
+  }
 
-	.novelty {
-		filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.5));
+  .novelty {
+    filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.5));
 
-		@include media('max', 'lg') {
-			margin-bottom: 40px;
-		}
+    @include media("max", "lg") {
+      margin-bottom: 40px;
+    }
 
-		.section__title {
-			text-align: left;
+    .section__title {
+      text-align: left;
 
-			&::before {
-				left: 0;
+      &::before {
+        left: 0;
 
-				transform: translateX(0);
-			}
-		}
-	}
+        transform: translateX(0);
+      }
+    }
+  }
 
-	.company {
-		.section__title {
-			text-align: right;
+  .company {
+    .section__title {
+      text-align: right;
 
-			&::before {
-				left: 100%;
+      &::before {
+        left: 100%;
 
-				transform: translateX(-100%);
-			}
-		}
+        transform: translateX(-100%);
+      }
+    }
 
-		&__content {
-			text-align: right;
-		}
+    &__content {
+      text-align: right;
+    }
 
-		&__text {
-			margin-bottom: 25px;
+    &__text {
+      margin-bottom: 25px;
 
-			font-size: 14px;
-			line-height: 17px;
-		}
+      font-size: 14px;
+      line-height: 17px;
+    }
 
-		&__btn-detail {
-			padding: 6px;
+    &__btn-detail {
+      padding: 6px;
 
-			font-size: 14px;
-			line-height: 18px;
-			text-decoration: underline;
-		}
-	}
+      font-size: 14px;
+      line-height: 18px;
+      text-decoration: underline;
+    }
+  }
+
+  .advices {
+    .section__title {
+      text-align: left;
+
+      &::before {
+        left: 0;
+
+        transform: translateX(0);
+      }
+    }
+  }
+
+  .certificates {
+    max-width: 240px;
+
+    @include media("max", "lg") {
+      margin-top: 30px;
+      margin-left: auto;
+    }
+
+    .section__title {
+      text-align: right;
+
+      &::before {
+        left: 100%;
+
+        transform: translateX(-100%);
+      }
+    }
+
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      // flex-wrap: wrap-reverse;
+      // justify-content: flex-end;
+    }
+
+    &__item {
+      position: relative;
+
+      width: 72px;
+      height: 103px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      overflow: hidden;
+
+      &:nth-child(3n + 3) {
+        margin-right: 0;
+      }
+    }
+
+    &__link {
+      position: relative;
+
+      display: inline-block;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 3px;
+      }
+
+      &:hover::after {
+        background: rgba(0, 0, 0, 0.7) url(../images/ico/ico-eye-hover.svg) no-repeat center;
+      }
+    }
+
+    &__img {
+      width: 100%;
+      height: 100%;
+
+      border-radius: 3px;
+    }
+  }
+
+  .advices {
+    width: 100%;
+    max-width: 690px;
+    // margin-right: 200px;
+
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__item {
+      width: calc(50% - 40px);
+      margin-right: 40px;
+      padding-bottom: 25px;
+
+      @include media("max", "md") {
+        width: 100%;
+        margin-right: 0;
+        padding-bottom: 15px;
+      }
+
+      &:nth-child(n + 3) {
+        padding-top: 25px;
+
+        border-top: 1px solid $color-gray;
+
+        @include media("max", "md") {
+          padding-top: 15px;
+        }
+      }
+    }
+
+    &__link {
+      font-size: 14px;
+      line-height: 20px;
+      text-decoration: underline;
+
+      @include media("max", "md") {
+        font-size: 13px;
+      }
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
 }
