@@ -10,6 +10,7 @@
 		{% include '../blocks/work-exx.nunj' %}
 		{% include '../blocks/articles.nunj' %}
 		{% include '../blocks/info-main2.nunj' %}
+		{% include '../blocks/map.nunj' %}
 	</main>
 
 {% endblock content %}

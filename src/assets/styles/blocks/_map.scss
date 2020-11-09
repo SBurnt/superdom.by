@@ -1,0 +1,10 @@
+.map {
+	height: 300px;
+
+	@include media('max', 'lg') {
+		height: 172px;
+		iframe {
+			height: 172px;
+		}
+	}
+}

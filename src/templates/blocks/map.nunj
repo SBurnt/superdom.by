@@ -1,0 +1,6 @@
+<div class="map" style="position:relative;overflow:hidden;">
+	<a href="https://yandex.by/maps/org/super_dom/132541757332/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Супер Дом</a>
+	<a href="https://yandex.by/maps/157/minsk/category/brick/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Кирпич в Минске</a>
+	<a href="https://yandex.by/maps/157/minsk/category/ceramic_tile/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Керамическая плитка в Минске</a>
+	<iframe src="https://yandex.by/map-widget/v1/-/CCUAi8DZOB" width="100%" height="300" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe>
+</div>
