@@ -20,7 +20,6 @@ export default function server() {
 	browserSync.init({
 		server: {
 			baseDir: './build',
-			notify: false,
 			middleware: hmrEnabled
 				? [
 						webpackDevMiddleware(bundler, {
@@ -48,7 +47,7 @@ export default function server() {
 		notify: false,
 		open: false,
 		port: 9000,
-		logPrefix: 'SP.Starter',
+		logPrefix: 'SBurnt',
 		files: watchFiles,
 	});
 }

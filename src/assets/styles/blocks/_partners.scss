@@ -1,0 +1,86 @@
+.partners {
+	position: relative;
+
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 60px;
+
+		@include media('max', 'md') {
+			height: 40px;
+		}
+	}
+
+	&__img {
+		max-width: 130px;
+		max-height: 60px;
+
+		cursor: pointer;
+		filter: brightness(0) invert(0.3);
+
+		@include media('max', 'md') {
+			max-width: 110px;
+			max-height: 40px;
+		}
+
+		&:hover {
+			filter: brightness(0) invert(1);
+		}
+	}
+
+	&__pagination {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 20px;
+	}
+
+	.swiper-button-next,
+	.swiper-button-prev {
+		position: static;
+
+		justify-content: center;
+		height: 11px;
+		margin: 0;
+
+		color: $color-gray-dark;
+		// color: red;
+
+		&::after {
+			font-weight: 700;
+			font-size: 11px;
+		}
+	}
+
+	.swiper-button-prev {
+		margin-right: 20px;
+	}
+
+	.swiper-button-next {
+		margin-left: 20px;
+	}
+
+	.swiper-pagination {
+		position: static;
+	}
+
+	.swiper-pagination-bullet {
+		background: $color-gray-dark;
+		opacity: 1;
+
+		&:not(:last-child) {
+			margin-right: 10px;
+		}
+	}
+
+	.swiper-pagination-bullet-active {
+		background: $color-primary;
+	}
+}
