@@ -1,0 +1,23 @@
+{% macro breadcrumbs(props) %}
+	<div class="breadcrumbs">
+		<div class="container">
+			<div class="section__inner">
+				<nav class="breadcrumbs__nav">
+					<ul class="breadcrumbs__list">
+						<li class="breadcrumbs__item">
+							<a href="/" class="breadcrumbs__link">Главная</a>
+						</li>
+						{% if props.second %}
+							<li class="breadcrumbs__item">
+								<a href="{{ props.second_link	}}" class="breadcrumbs__link">{{ props.second_title	}}</a>
+							</li>
+						{% endif %}
+						<li class="breadcrumbs__item">
+							<span class="breadcrumbs__last">{{ props.third_title	}}</span>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+{% endmacro %}

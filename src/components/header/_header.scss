@@ -12,6 +12,10 @@
 		right: 0;
 		left: 0;
 		z-index: 11;
+
+		+ * {
+			margin-top: 59px;
+		}
 	}
 
 	@media only screen and (min-width: 1025px) {

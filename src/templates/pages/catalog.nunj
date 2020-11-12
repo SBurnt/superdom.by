@@ -1,7 +1,14 @@
 {% extends "../ext/base.nunj" %}
 {% block title %}catalog{% endblock title %}
+{% from "../../components/breadcrumbs/breadcrumbs.nunj" import breadcrumbs %}
 
 {% block content %}
+	{{ breadcrumbs({
+		second: false,
+		second_link: 'catalog.html',
+		second_title: 'Каталог',
+		third_title: 'Каталог'
+	}) }}
 	<main class="main">
 		<div class="container">
 			<h2>Catalog</h2>
