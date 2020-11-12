@@ -2,20 +2,46 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 13px 0;
+	padding: 9px 0;
 
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	@media only screen and (min-width: 1025px) {
+		padding: 13px 0;
+
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	}
 
 	.logo {
 		&__wrap {
-			position: absolute;
-			top: 50%;
-			left: 0;
+			width: 41px;
+			height: 41px;
+			margin-right: auto;
 
-			width: 73px;
-			height: 73px;
+			@media only screen and (min-width: 1025px) {
+				position: absolute;
+				top: 50%;
+				left: 0;
 
-			transform: translateY(-50%);
+				width: 73px;
+				height: 73px;
+				margin-right: 0;
+
+				transform: translateY(-50%);
+			}
+		}
+	}
+
+	.address {
+		display: none;
+		@media only screen and (min-width: 1025px) {
+			display: block;
+		}
+	}
+
+	.social,
+	.phones {
+		display: none;
+		@media only screen and (min-width: 768px) {
+			display: block;
 		}
 	}
 }
