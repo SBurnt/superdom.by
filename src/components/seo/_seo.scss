@@ -1,0 +1,36 @@
+.seo {
+	position: relative;
+
+	.section__inner {
+		padding-top: 0;
+	}
+
+	&__title {
+		margin-bottom: 15px;
+
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 22px;
+
+		@include media('max', 'md') {
+			font-size: 16px;
+			line-height: 20px;
+		}
+	}
+
+	&__text {
+		margin-bottom: 15px;
+
+		font-size: 13px;
+		line-height: 16px;
+
+		@include media('max', 'md') {
+			font-size: 11px;
+			line-height: 13px;
+		}
+
+		span {
+			font-weight: 700;
+		}
+	}
+}
