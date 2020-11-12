@@ -62,11 +62,9 @@ a:visited {
 	@include media('max', 'lg') {
 		padding: 60px 0;
 	}
-
 	@include media('max', 'md') {
 		padding: 50px 0;
 	}
-
 	@include media('max', 'sm') {
 		padding: 30px 0;
 	}
@@ -104,6 +102,26 @@ a:visited {
 
 		@include media('max', 'lg') {
 			bottom: -10px;
+		}
+	}
+
+	&.left {
+		text-align: left;
+
+		&::before {
+			left: 0;
+
+			transform: translateX(0);
+		}
+	}
+
+	&.right {
+		text-align: right;
+
+		&::before {
+			left: 100%;
+
+			transform: translateX(-100%);
 		}
 	}
 }

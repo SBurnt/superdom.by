@@ -1,0 +1,9 @@
+.catalog-page {
+	.catalog {
+		width: 100%;
+
+		@include media("max", "lg") {
+			margin-top: 0;
+		}
+	}
+}

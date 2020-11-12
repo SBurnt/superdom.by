@@ -1,5 +1,5 @@
 {% extends "../ext/base.nunj" %}
-{% block title %}catalog{% endblock title %}
+{% block title %}Каталог{% endblock title %}
 {% from "../../components/breadcrumbs/breadcrumbs.nunj" import breadcrumbs %}
 
 {% block content %}
@@ -10,8 +10,13 @@
 		third_title: 'Каталог'
 	}) }}
 	<main class="main">
-		<div class="container">
-			<h2>Catalog</h2>
-		</div>
+		<section class="catalog-page">
+			<div class="container">
+				<div class="section__inner">
+					<h2 class="section__title left">Каталог</h2>
+					{% include '../../components/catalog/catalog.nunj' %}
+				</div>
+			</div>
+		</section>
 	</main>
 {% endblock %}
