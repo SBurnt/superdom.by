@@ -1,7 +1,6 @@
 // import Swiper, { Navigation, Pagination, Autoplay } from 'swiper';
 import Swiper from '../../../node_modules/swiper/swiper-bundle';
 
-console.log('swiper');
 // Swiper.use([Navigation, Pagination, Autoplay]);
 // global.Swiper = Swiper;
 const sliderPartners = document.querySelector('.js-partners-slider');
