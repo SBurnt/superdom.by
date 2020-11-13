@@ -1,0 +1,12 @@
+<section class="gallery-one-row">
+	<div class="container">
+		<div class="section__inner">
+			<ul class="gallery-one-row__list">
+				<li class="gallery-one-row__item"><img class="gallery-one-row__img" src="assets/images/gallery/gallery-02.png" alt="фото наших работ"></li>
+				<li class="gallery-one-row__item"><img class="gallery-one-row__img" src="assets/images/gallery/gallery-04.png" alt="фото наших работ"></li>
+				<li class="gallery-one-row__item"><img class="gallery-one-row__img" src="assets/images/gallery/gallery-03.png" alt="фото наших работ"></li>
+				<li class="gallery-one-row__item"><img class="gallery-one-row__img" src="assets/images/gallery/gallery-01.png" alt="фото наших работ"></li>
+			</ul>
+		</div>
+	</div>
+</section>

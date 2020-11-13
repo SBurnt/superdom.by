@@ -12,5 +12,6 @@
 	<main class="main contacts-page">
 		{% include "../blocks/contacts.nunj" %}
 		{% include "../blocks/feedback.nunj" %}
+		{% include "../blocks/gallery-one-row.nunj" %}
 	</main>
 {% endblock %}
