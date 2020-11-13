@@ -1,0 +1,15 @@
+{% extends "../ext/base.nunj" %}
+{% block title %}Советы{% endblock title %}
+{% from "../../components/breadcrumbs/breadcrumbs.nunj" import breadcrumbs %}
+
+{% block content %}
+	{{ breadcrumbs({
+		second: false,
+		second_link: 'advice.html',
+		second_title: 'Советы',
+		third_title: 'Советы'
+	}) }}
+	<main class="main advice-page">
+		{% include "../blocks/advice-img.nunj" %}
+	</main>
+{% endblock %}
