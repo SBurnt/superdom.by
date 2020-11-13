@@ -1,4 +1,5 @@
 {% extends "../ext/base.nunj" %}
+{% from "../blocks/map.nunj" import map %}
 
 {% block content %}
 
@@ -11,7 +12,10 @@
 		{% include '../blocks/articles.nunj' %}
 		{% include '../blocks/info-main2.nunj' %}
 		{% include '../blocks/partners.nunj' %}
-		{% include '../blocks/map.nunj' %}
+		{{ map({
+			info: false,
+			map: true
+		}) }}
 	</main>
 
 {% endblock content %}

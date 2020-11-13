@@ -1,0 +1,18 @@
+.contacts {
+	position: relative;
+
+	.map__map {
+		height: 566px;
+
+		iframe {
+			height: 566px;
+		}
+
+		@include media('max', 'lg') {
+			height: 140px;
+			iframe {
+				height: 140px;
+			}
+		}
+	}
+}

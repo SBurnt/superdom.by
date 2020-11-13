@@ -1,0 +1,12 @@
+.feedback {
+	.section__inner {
+		padding-top: 0;
+		padding-left: 6vw;
+		padding-right: 6vw;
+
+		@include media("max", "md") {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}

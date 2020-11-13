@@ -1,6 +1,41 @@
-<div class="map" style="position:relative;overflow:hidden;">
-	<a href="https://yandex.by/maps/org/super_dom/132541757332/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Супер Дом</a>
-	<a href="https://yandex.by/maps/157/minsk/category/brick/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Кирпич в Минске</a>
-	<a href="https://yandex.by/maps/157/minsk/category/ceramic_tile/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Керамическая плитка в Минске</a>
-	<iframe src="https://yandex.by/map-widget/v1/-/CCUAi8DZOB" width="100%" height="300" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe>
-</div>
+{% macro map(args) %}
+	<div class="map__wrap">
+		{% if args.info %}
+			<div class="map__info">
+				<ul class="map__list">
+					<li class="map__item">
+						<span class="map__title address">Адрес</span>
+						<span class='map__text'>Минск, пересечение ул.Корш-Саблина, 5 и ул.Беды, 26</span>
+					</li>
+					<li class="map__item">
+						<span class="map__title email">E-mail</span>
+						<span class='map__text'>
+							<a href="mailto:superdom.minsk@mail.ru">superdom.minsk@mail.ru</a>
+						</span>
+					</li>
+					<li class="map__item">
+						<span class="map__title phones">Телефон</span>
+						<span class='map__text'>
+							<a class="phones__main-link" href="tel:+375296725527">+ 375 (29) <span>672-55-27</span></a>
+						</span>
+						<span class='map__text'>
+							<a class="phones__main-link" href="tel:+375291010555">+ 375 (29) <span>101-05-55</span></a>
+						</span>
+					</li>
+					<li class="map__item">
+						<span class="map__title opening-hours">Время работы</span>
+						<span class='map__text'>9:00 - 21:00</span>
+					</li>
+				</ul>
+			</div>
+		{% endif %}
+		{% if args.map %}
+			<div class="map__map" style="position:relative;overflow:hidden;">
+				<a href="https://yandex.by/maps/org/super_dom/132541757332/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Супер Дом</a>
+				<a href="https://yandex.by/maps/157/minsk/category/brick/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Кирпич в Минске</a>
+				<a href="https://yandex.by/maps/157/minsk/category/ceramic_tile/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Керамическая плитка в Минске</a>
+				<iframe src="https://yandex.by/map-widget/v1/-/CCUAi8DZOB" width="100%" height="300" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe>
+			</div>
+		{% endif %}
+	</div>
+{% endmacro %}

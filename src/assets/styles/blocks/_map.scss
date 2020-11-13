@@ -1,10 +1,121 @@
 .map {
-	height: 300px;
+  &__wrap {
+    position: relative;
+  }
 
-	@include media('max', 'lg') {
-		height: 172px;
-		iframe {
-			height: 172px;
-		}
-	}
+  &__info {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    z-index: 1;
+
+    width: 100%;
+    max-width: 270px;
+    padding: 30px;
+
+    background-color: $bg-dark1;
+    transform: translateY(-50%);
+
+    @include media("max", "lg") {
+      position: static;
+
+      max-width: none;
+      margin-bottom: 15px;
+
+      transform: translateY(0);
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+    @include media("max", "lg") {
+      margin-bottom: 30px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    padding-left: 32px;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    color: $color-gray-dark;
+
+    &.address::before {
+      top: 50%;
+
+      background-image: url(../images/ico/ico-map-marker-light.svg);
+      transform: translateY(-50%);
+    }
+
+    &.phones::before {
+      top: 50%;
+
+      background-image: url(../images/ico/ico-phone-header-light.svg);
+      transform: translateY(-50%);
+    }
+
+    &.email {
+      position: relative;
+
+      // padding-left: 26px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+
+        width: 20px;
+        height: 16px;
+
+        background-image: url(../images/ico/ico-email.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+  &__text {
+    position: relative;
+
+    padding-left: 30px;
+
+    font-size: 14px;
+    line-height: 17px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 5px;
+
+      width: 5px;
+      height: 5px;
+
+      background-color: $color-primary;
+      border-radius: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  &__map {
+    height: 300px;
+
+    @include media("max", "lg") {
+      height: 172px;
+      iframe {
+        height: 172px;
+      }
+    }
+  }
 }

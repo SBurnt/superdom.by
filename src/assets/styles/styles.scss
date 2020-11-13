@@ -23,8 +23,23 @@
 @import '../../components/header/header-scroll';
 @import '../../components/breadcrumbs/breadcrumbs';
 @import '../../components/seo/seo';
+@import '../../components/form-feedback/form-feedback';
 
 // ======= PAGES =======
-@import 'pages/index';
+@import 'pages/index-page';
 @import 'pages/catalog-page';
-@import 'pages/gallery';
+@import 'pages/gallery-page';
+@import 'pages/contacts-page';
+
+// ======= BLOCKS =======
+@import 'blocks/banner';
+@import 'blocks/advantages';
+@import 'blocks/info-main';
+@import 'blocks/catalog-main';
+@import 'blocks/work-exx';
+@import 'blocks/articles';
+@import 'blocks/partners';
+@import 'blocks/map';
+@import 'blocks/contacts';
+@import 'blocks/gallery';
+@import 'blocks/feedback';

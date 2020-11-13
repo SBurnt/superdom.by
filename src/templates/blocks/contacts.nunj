@@ -1,0 +1,13 @@
+{% from "./map.nunj" import map %}
+
+<section class="contacts">
+	<div class="container">
+		<div class="section__inner">
+			<h2 class="section__title left">Контакты</h2>
+			{{ map({
+						info: true,
+						map: true
+					}) }}
+		</div>
+	</div>
+</section>

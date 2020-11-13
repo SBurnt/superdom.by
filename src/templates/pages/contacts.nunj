@@ -1,0 +1,16 @@
+{% extends "../ext/base.nunj" %}
+{% block title %}Контакты{% endblock title %}
+{% from "../../components/breadcrumbs/breadcrumbs.nunj" import breadcrumbs %}
+
+{% block content %}
+	{{ breadcrumbs({
+		second: false,
+		second_link: 'contacts.html',
+		second_title: 'Контакты',
+		third_title: 'Контакты'
+	}) }}
+	<main class="main contacts-page">
+		{% include "../blocks/contacts.nunj" %}
+		{% include "../blocks/feedback.nunj" %}
+	</main>
+{% endblock %}
