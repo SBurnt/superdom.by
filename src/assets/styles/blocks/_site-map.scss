@@ -1,0 +1,58 @@
+.site-map {
+	&__item {
+		&:nth-child(n + 2) {
+			margin-top: 15px;
+		}
+	}
+
+	&__link {
+		font-size: 14px;
+		line-height: 17px;
+		letter-spacing: 0.04em;
+	}
+
+	&__sublist {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: -7px;
+			left: 0;
+
+			width: 1px;
+			height: 100%;
+
+			background-color: $bg-gray;
+		}
+	}
+
+	&__subitem {
+		position: relative;
+
+		margin-bottom: 10px;
+		padding-left: 28px;
+
+		&:first-child {
+			margin-top: 10px;
+		}
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: 0;
+
+			width: 20px;
+			height: 1px;
+
+			background-color: $bg-gray;
+		}
+	}
+
+	&__sublink {
+		font-size: 13px;
+		line-height: 16px;
+		color: $color-gray !important;
+	}
+}
