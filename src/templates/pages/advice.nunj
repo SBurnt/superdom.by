@@ -11,5 +11,6 @@
 	}) }}
 	<main class="main advice-page">
 		{% include "../blocks/advice-img.nunj" %}
+		{% include "../blocks/advice-text.nunj" %}
 	</main>
 {% endblock %}
