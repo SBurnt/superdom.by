@@ -1,0 +1,32 @@
+.page-not-found {
+  &__content {
+    text-align: center;
+  }
+
+  &__img-wrap {
+    margin-bottom: 30px;
+	}
+
+	&__img {
+		max-width: 100%;
+	}
+
+  &__text {
+    margin-bottom: 30px;
+
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 17px;
+
+		text-decoration: underline;
+		text-transform: uppercase;
+
+    &:nth-child(n + 2) {
+      margin-left: 55px;
+    }
+  }
+}

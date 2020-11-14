@@ -1,0 +1,33 @@
+{% extends "../ext/base.nunj" %}
+{% block title %}Страница не найдена{% endblock title %}
+{% from "../../components/breadcrumbs/breadcrumbs.nunj" import breadcrumbs %}
+
+{% block content %}
+	{{ breadcrumbs({
+		second: false,
+		second_link: '404.html',
+		second_title: 'Страница не найдена',
+		third_title: 'Страница не найдена'
+	}) }}
+	<main class="main page-404">
+		<section class="page-not-found">
+			<div class="container">
+				<div class="section__inner">
+					<h2 class="section__title left">страница не найдена</h2>
+					<div class="page-not-found__content">
+						<div class="page-not-found__img-wrap">
+							<img class="page-not-found__img" src="assets/images/ico/ico-404.svg" alt="ошибка 404">
+						</div>
+						<div class="page-not-found__text-wrap">
+							<p class="page-not-found__text">Данная страница не существует. Приносим свои извинения.<br>Попробуйте перейти на другую страницу сайта</p>
+							<div class="page-not-found__link-wrap">
+								<a href="index.html" class="page-not-found__link">Главная</a>
+								<a href="site-map.html" class="page-not-found__link">карта сайта</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+{% endblock %}
