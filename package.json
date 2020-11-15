@@ -99,5 +99,9 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "browserslist": [
+    "> 0.25%",
+    "last 4 version"
+  ]
 }
