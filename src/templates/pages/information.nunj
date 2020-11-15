@@ -1,0 +1,169 @@
+{% extends "../ext/base.nunj" %}
+{% block title %}Информационная страница{% endblock title %}
+{% from "../../components/breadcrumbs/breadcrumbs.nunj" import breadcrumbs %}
+
+{% block content %}
+	{{ breadcrumbs({
+		second: false,
+		second_link: '404.html',
+		second_title: 'Информационная страница',
+		third_title: 'Информационная страница'
+	}) }}
+	<main class="main information-page">
+		<section class="information">
+			<div class="container">
+				<div class="section__inner">
+					<h2 class="section__title left">Информационная страница</h2>
+					<div class="information__content">
+						<h2>Заголовок H2</h2>
+						<p>Воссозданный нами старинный уникальный многокомпонентный минеральный состав кирпича и изобретенный нами и запатентованный способ формовки RealBrick® предоставляют нам право давать повышенную гарантию производителя на нашу продукцию.</p>
+						<h3>Заголовок H3</h3>
+						<p>
+							<strong>Воссозданный нами старинный уникальный многокомпонентный минеральный состав кирпича и изобретенный нами и запатентованный способ формовки RealBrick® предоставляют нам право давать повышенную гарантию производителя на нашу продукцию.</strong>
+						</p>
+						<h4>Заголовок H4</h4>
+						<p>Воссозданный нами старинный уникальный многокомпонентный минеральный состав кирпича и изобретенный нами и запатентованный способ формовки RealBrick® предоставляют нам право давать повышенную гарантию производителя на нашу продукцию.</p>
+						<h5>Заголовок H5</h5>
+						<p>Воссозданный нами старинный <a href="">ссылка</a> уникальный многокомпонентный минеральный состав кирпича и изобретенный нами и запатентованный способ формовки RealBrick® предоставляют нам право давать повышенную гарантию производителя на нашу продукцию.</p>
+						<h6>Заголовок H6</h6>
+						<p>Воссозданный нами старинный уникальный многокомпонентный минеральный состав кирпича и изобретенный нами и запатентованный способ формовки RealBrick® предоставляют нам право давать повышенную гарантию производителя на нашу продукцию.</p>
+						<h6>Заглавие</h6>
+						<ol>
+							<li>Первый пункт</li>
+							<li>Второй пункт</li>
+							<li>Третий пункт
+								<ol>
+									<li>Один</li>
+									<li>Два
+										<ol>
+											<li>Один</li>
+											<li>Два</li>
+											<li>Три</li>
+										</ol>
+									</li>
+									<li>Три</li>
+								</ol>
+							</li>
+							<li>Четвертый пункт</li>
+							<li>Пятый пункт</li>
+							<li>Шестой пункт</li>
+							<li>Седьмой пункт</li>
+							<li>Восьмой пункт</li>
+							<li>Девятый пункт</li>
+							<li>Десятый пункт</li>
+							<li>Одиннадцатый пункт</li>
+						</ol>
+						<h6>Заглавие</h6>
+						<ul>
+							<li>Дизайнерские проекты</li>
+							<li>Жилые дома
+								<ul>
+									<li>Один</li>
+									<li>Два</li>
+									<li>Три
+										<ul>
+											<li>Один</li>
+											<li>Два</li>
+											<li>Три</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>Прилегающая территория</li>
+							<li>Материалы одного стиля</li>
+							<li>Полноценный кирпич</li>
+							<li>Лицевой кирпич ручной формовки</li>
+						</ul>
+
+						<h5>Таблица без рамки</h5>
+						<div class="table">
+							<table>
+								<tbody>
+									<tr>
+										<th>#</th>
+										<th>Имя</th>
+										<th>Фамилия</th>
+										<th>Логин</th>
+										<th>Пароль</th>
+										<th>Имя</th>
+										<th>Фамилия</th>
+										<th>Логин</th>
+										<th>Пароль</th>
+									</tr>
+									<tr>
+										<td>1.</td>
+										<td>Олег</td>
+										<td>Байков</td>
+										<td>Байков</td>
+										<td>1111</td>
+										<td>Олег</td>
+										<td>Байков</td>
+										<td>Байков</td>
+										<td>1111</td>
+									</tr>
+									<tr>
+										<td>2.</td>
+										<td>Владимир</td>
+										<td>Дрозд</td>
+										<td>Дрозд</td>
+										<td>2121</td>
+										<td>Владимир</td>
+										<td>Дрозд</td>
+										<td>Дрозд</td>
+										<td>2121</td>
+									</tr>
+									<tr>
+										<td>3.</td>
+										<td>Михаил</td>
+										<td>Мокроусов</td>
+										<td>Мокроусов</td>
+										<td>6579</td>
+										<td>Михаил</td>
+										<td>Мокроусов</td>
+										<td>Мокроусов</td>
+										<td>6579</td>
+									</tr>
+									<tr>
+										<td>4.</td>
+										<td>Иван</td>
+										<td>Корсунский</td>
+										<td>Корсунский</td>
+										<td>3455</td>
+										<td>Иван</td>
+										<td>Корсунский</td>
+										<td>Корсунский</td>
+										<td>3455</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<p>Воссозданный нами старинный уникальный многокомпонентный минеральный состав кирпича и изобретенный нами и запатентованный способ формовки RealBrick® предоставляют нам право давать повышенную гарантию производителя на нашу продукцию.</p>
+						<p>Наш кирпич имеет морозостойкость 400 циклов (!), что выше любых известных стройматериалов для облицовки фасадов. Наш камень имеет высшую экологическую оценку качества, изготавливается только из натуральных дорогостоящих компонентов, не имеющих свойств к накоплению радионуклидов. Поэтому на 100% безопасен и экологичен.</p>
+						<p>Потрясающая фактура и удивительные цветовые решения, позволяющие создать в кирпиче, как в картинах, разные стили, образы, передать разнообразную историко-временную атмосферу , делают RealBrick® узнаваемым и неповторимым.</p>
+
+						<h4>Наше видео</h4>
+
+						<div class="video-wrap">
+							<div class="video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/rK31N4UqfU0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/p9eVNhVpFuU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+
+						{# <div class="video-wrap2">
+							<div class="video2">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/rK31N4UqfU0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="video2">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/p9eVNhVpFuU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div> #}
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+{% endblock %}
