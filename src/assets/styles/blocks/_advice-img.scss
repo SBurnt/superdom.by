@@ -128,9 +128,17 @@
 	}
 
 	&__text {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		-webkit-line-clamp: 2;
+
 		font-size: 12px;
 		line-height: 19px;
 
+		@include media('max', 'lg') {
+			-webkit-line-clamp: 3;
+		}
 		@include media('max', 'md') {
 			font-size: 10px;
 			line-height: 16px;
