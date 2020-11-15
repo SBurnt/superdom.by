@@ -1,3 +1,3 @@
 <div class="callback">
-	<button class="btn callback__btn">Заказать звонок</button>
+	<button class="btn callback__btn" data-path="modal-callback" data-animation="fadeInUp" data-speed="500">Заказать звонок</button>
 </div>
