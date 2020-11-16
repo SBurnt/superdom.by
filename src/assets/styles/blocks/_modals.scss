@@ -46,7 +46,6 @@
 		position: relative;
 
 		display: none;
-		// width: 1000px;
 		margin: 50px auto;
 		padding: 50px 60px;
 
@@ -59,7 +58,11 @@
 		cursor: default;
 
 		@include media('max', 'lg') {
-			// width: 90%;
+			width: 93% !important;
+		}
+
+		@include media('max', 'md') {
+			padding: 40px 20px;
 		}
 
 		&.modal__open {
@@ -97,6 +100,11 @@
 		position: absolute;
 		top: 30px;
 		right: 30px;
+
+		@include media('max', 'md') {
+			top: 15px;
+			right: 15px;
+		}
 
 		svg {
 			width: 16px;
