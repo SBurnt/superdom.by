@@ -5,6 +5,7 @@ import './swiper';
 import './tabs-gallery';
 import './modals';
 import './modal-work-exx';
+import './customScrollbars';
 
 if (module.hot) {
 	module.hot.accept();
