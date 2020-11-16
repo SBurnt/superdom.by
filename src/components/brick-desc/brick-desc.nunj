@@ -19,7 +19,8 @@
 						<span class="chart__name">{{ props.chart__name }}</span>
 					</div>
 				{% endif %}
-				<a class="btn brick-desc__btn-detail" href="/detail.html">Подробнее</a>
+				{# <a class="btn brick-desc__btn-detail" href="/detail.html"  data-path="modal-work-exx" data-animation="fadeInUp" data-speed="300">Подробнее</a> #}
+				<button class="btn brick-desc__btn-detail" href="/detail.html"  data-path="modal-work-exx" data-animation="fadeInUp" data-speed="300">Подробнее</button>
 			</div>
 		</div>
 	</div>
