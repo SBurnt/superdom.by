@@ -1,0 +1,339 @@
+<section class="hand-molded">
+	<div class="container">
+		<div class="section__inner">
+			<ul class="hand-molded__list">
+				<li class="hand-molded__item">
+					<div class="hand-molded__header">
+						<div class="header__main">
+							<div class="main__left">
+								<div class="main__img-wrap">
+									<img class="main__img" src="assets/images/hand-molded/hand-molded-02.png" alt="REAL BRICK. Коллекция 2 (в стиле PROVENCE)">
+								</div>
+								<span class="main__manufacturer">производство Супер Дом, РБ</span>
+							</div>
+							<div class="main__right">
+								<h3 class="main__title">REAL BRICK. Коллекция 2<br>(в стиле PROVENCE)</h3>
+								<span class="main__novelty">Новинка</span>
+							</div>
+						</div>
+						<div class="header__charact">
+							<ul class="charact__list">
+								<li class="charact__item">
+									<span class="charact__title">Цены:</span>
+									<div class="charact__description-wrap">
+										<span class="charact__description">плитка: 87.4 руб/м2</span>
+										<span class="charact__description">угол: 87.4 руб/мп</span>
+									</div>
+								</li>
+								<li class="charact__item">
+									<span class="charact__title">Размеры:</span>
+									<div class="charact__description-wrap">
+										<span class="charact__description">плитка: 240 х 60 х 15</span>
+										<span class="charact__description">угол: 240/120 х 60 х 15</span>
+									</div>
+								</li>
+								<li class="charact__item">
+									<span class="charact__title">Упаковка:</span>
+									<div class="charact__description-wrap">
+										<span class="charact__description">плитка: 0,63м2 (36шт)</span>
+										<span class="charact__description">угол: 1,26мп (18шт)</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="hand-molded__body">
+						<ul class="body__list">
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
+								</div>
+								<span class="body__text">RB 2-03 loft</span>
+								<span class="body__text">глина лофт</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
+								</div>
+								<span class="body__text">RB 2-03 loft</span>
+								<span class="body__text">глина лофт</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
+								</div>
+								<span class="body__text">RB 2-03 rustik</span>
+								<span class="body__text">глина рустик</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-05.png" alt="RB 4-13 antic глина античная графитовая">
+								</div>
+								<span class="body__text">RB 4-13 antic</span>
+								<span class="body__text">глина античная графитовая</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-06.png" alt="RB 2-03 loft глина лофт">
+								</div>
+								<span class="body__text">RB 2-03 loft</span>
+								<span class="body__text">глина лофт</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
+								</div>
+								<span class="body__text">RB 2-03 loft</span>
+								<span class="body__text">глина лофт</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
+								</div>
+								<span class="body__text">RB 2-03 loft</span>
+								<span class="body__text">глина лофт</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
+								</div>
+								<span class="body__text">RB 2-03 rustik</span>
+								<span class="body__text">глина рустик</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-05.png" alt="RB 4-13 antic глина античная графитовая">
+								</div>
+								<span class="body__text">RB 4-13 antic</span>
+								<span class="body__text">глина античная графитовая</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-06.png" alt="RB 2-03 loft глина лофт">
+								</div>
+								<span class="body__text">RB 2-03 loft</span>
+								<span class="body__text">глина лофт</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
+								</div>
+								<span class="body__text">RB 2-03 loft</span>
+								<span class="body__text">глина лофт</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
+								</div>
+								<span class="body__text">RB 2-03 loft</span>
+								<span class="body__text">глина лофт</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
+								</div>
+								<span class="body__text">RB 2-03 rustik</span>
+								<span class="body__text">глина рустик</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-05.png" alt="RB 4-13 antic глина античная графитовая">
+								</div>
+								<span class="body__text">RB 4-13 antic</span>
+								<span class="body__text">глина античная графитовая</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-06.png" alt="RB 2-03 loft глина лофт">
+								</div>
+								<span class="body__text">RB 2-03 loft</span>
+								<span class="body__text">глина лофт</span>
+							</li>
+						</ul>
+
+					</div>
+				</li>
+				<li class="hand-molded__item">
+					<div class="hand-molded__header">
+						<div class="header__main">
+							<div class="main__left">
+								<div class="main__img-wrap">
+									<img class="main__img" src="assets/images/hand-molded/hand-molded-02.png" alt="REAL BRICK. Коллекция 2 (в стиле PROVENCE)">
+								</div>
+								<span class="main__manufacturer">производство Супер Дом, РБ</span>
+							</div>
+							<div class="main__right">
+								<h3 class="main__title">REAL BRICK. Коллекция 2<br>(в стиле PROVENCE)</h3>
+							</div>
+						</div>
+						<div class="header__charact">
+							<ul class="charact__list">
+								<li class="charact__item">
+									<span class="charact__title">Цены:</span>
+									<div class="charact__description-wrap">
+										<span class="charact__description">плитка: 87.4 руб/м2</span>
+										<span class="charact__description">угол: 87.4 руб/мп</span>
+									</div>
+								</li>
+								<li class="charact__item">
+									<span class="charact__title">Размеры:</span>
+									<div class="charact__description-wrap">
+										<span class="charact__description">плитка: 240 х 60 х 15</span>
+										<span class="charact__description">угол: 240/120 х 60 х 15</span>
+									</div>
+								</li>
+								<li class="charact__item">
+									<span class="charact__title">Упаковка:</span>
+									<div class="charact__description-wrap">
+										<span class="charact__description">плитка: 0,63м2 (36шт)</span>
+										<span class="charact__description">угол: 1,26мп (18шт)</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="hand-molded__body">
+						<ul class="body__list">
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
+								</div>
+								<span class="body__text">RB 2-03 loft</span>
+								<span class="body__text">глина лофт</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
+								</div>
+								<span class="body__text">RB 2-03 loft</span>
+								<span class="body__text">глина лофт</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
+								</div>
+								<span class="body__text">RB 2-03 rustik</span>
+								<span class="body__text">глина рустик</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-05.png" alt="RB 4-13 antic глина античная графитовая">
+								</div>
+								<span class="body__text">RB 4-13 antic</span>
+								<span class="body__text">глина античная графитовая</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-06.png" alt="RB 2-03 loft глина лофт">
+								</div>
+								<span class="body__text">RB 2-03 loft</span>
+								<span class="body__text">глина лофт</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
+								</div>
+								<span class="body__text">RB 2-03 loft</span>
+								<span class="body__text">глина лофт</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
+								</div>
+								<span class="body__text">RB 2-03 loft</span>
+								<span class="body__text">глина лофт</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
+								</div>
+								<span class="body__text">RB 2-03 rustik</span>
+								<span class="body__text">глина рустик</span>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="hand-molded__item">
+					<div class="hand-molded__header">
+						<div class="header__main">
+							<div class="main__left">
+								<div class="main__img-wrap">
+									<img class="main__img" src="assets/images/hand-molded/hand-molded-02.png" alt="REAL BRICK. Коллекция 2 (в стиле PROVENCE)">
+								</div>
+								<span class="main__manufacturer">производство Супер Дом, РБ</span>
+							</div>
+							<div class="main__right">
+								<h3 class="main__title">REAL BRICK. Коллекция 2<br>(в стиле PROVENCE)</h3>
+							</div>
+						</div>
+						<div class="header__charact">
+							<ul class="charact__list">
+								<li class="charact__item">
+									<span class="charact__title">Цены:</span>
+									<div class="charact__description-wrap">
+										<span class="charact__description">плитка: 87.4 руб/м2</span>
+										<span class="charact__description">угол: 87.4 руб/мп</span>
+									</div>
+								</li>
+								<li class="charact__item">
+									<span class="charact__title">Размеры:</span>
+									<div class="charact__description-wrap">
+										<span class="charact__description">плитка: 240 х 60 х 15</span>
+										<span class="charact__description">угол: 240/120 х 60 х 15</span>
+									</div>
+								</li>
+								<li class="charact__item">
+									<span class="charact__title">Упаковка:</span>
+									<div class="charact__description-wrap">
+										<span class="charact__description">плитка: 0,63м2 (36шт)</span>
+										<span class="charact__description">угол: 1,26мп (18шт)</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="hand-molded__body">
+						<ul class="body__list">
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
+								</div>
+								<span class="body__text">RB 2-03 loft</span>
+								<span class="body__text">глина лофт</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
+								</div>
+								<span class="body__text">RB 2-03 loft</span>
+								<span class="body__text">глина лофт</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
+								</div>
+								<span class="body__text">RB 2-03 rustik</span>
+								<span class="body__text">глина рустик</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-05.png" alt="RB 4-13 antic глина античная графитовая">
+								</div>
+								<span class="body__text">RB 4-13 antic</span>
+								<span class="body__text">глина античная графитовая</span>
+							</li>
+							<li class="body__item">
+								<div class="body__img-wrap">
+									<img class="body__img" src="assets/images/hand-molded/hand-molded-06.png" alt="RB 2-03 loft глина лофт">
+								</div>
+								<span class="body__text">RB 2-03 loft</span>
+								<span class="body__text">глина лофт</span>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+
+		</div>
+	</div>
+</section>

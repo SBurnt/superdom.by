@@ -1,0 +1,29 @@
+{% extends "../ext/base.nunj" %}
+{% block title %}Плитка ручной формовки{% endblock title %}
+{% from "../../components/breadcrumbs/breadcrumbs.nunj" import breadcrumbs %}
+{% from "../../components/seo/seo.nunj" import seo %}
+
+{% block content %}
+	{{ breadcrumbs({
+		second: true,
+		second_link: 'catalog.html',
+		second_title: 'Каталог',
+		third_title: 'Плитка ручной формовки'
+	}) }}
+	<main class="main hand-molded-page">
+		<section class="title">
+			<div class="container">
+				<div class="section__inner">
+					<h2 class="section__title left">Плитка ручной формовки</h2>
+				</div>
+			</div>
+		</section>
+		{{ seo({
+			title: false
+		}) }}
+		{% include "../blocks/hand-molded-block.nunj" %}
+		{{ seo({
+			title: true
+		}) }}
+	</main>
+{% endblock %}
