@@ -4,11 +4,11 @@
 			<h2 class="section__title left">Советы</h2>
 			<div class="advice-img__content">
 				<h3 class="advice-img__main-title">
-					<a href="" class="advice-img__main-title-link">Виды кирпича, используемые в строительст строительстве</a>
+					<a href="advice-types-bricks.html" class="advice-img__main-title-link">Виды кирпича, используемые в строительст строительстве</a>
 				</h3>
 				<div class="advice-img__wrap">
 					<div class="advice-img__main">
-						<a class="advice-img__main-link" href="">
+						<a class="advice-img__main-link" href="advice-types-bricks.html">
 							<div class="advice-img__main-img-wrap">
 								<img class="advice-img__main-img" src="assets/images/advice/advice-01.png" alt="фото совета">
 							</div>
@@ -23,7 +23,7 @@
 							<div class="advice-img__text-wrap">
 								<h3 class="advice-img__title">Как выполняется кладка?</h3>
 								<p class="advice-img__text">Технология кладочных работ подробно описана в другой нашей статье, а в этом материале мы...</p>
-								<a href="" class="advice-img__link">Читать далее</a>
+								<a href="advice-types-bricks.html" class="advice-img__link">Читать далее</a>
 							</div>
 						</li>
 						<li class="advice-img__item">
@@ -33,7 +33,7 @@
 							<div class="advice-img__text-wrap">
 								<h3 class="advice-img__title">Толщина кладки</h3>
 								<p class="advice-img__text">Выбирая подходящие для будущего строения виды кирпичной кладки стен, рекомендуется...</p>
-								<a href="" class="advice-img__link">Читать далее</a>
+								<a href="advice-types-bricks.html" class="advice-img__link">Читать далее</a>
 							</div>
 						</li>
 						<li class="advice-img__item">
@@ -43,7 +43,7 @@
 							<div class="advice-img__text-wrap">
 								<h3 class="advice-img__title">Виды кладки кирпича</h3>
 								<p class="advice-img__text">При строительстве зданий и сооружений применяются различные виды кладки кирпича.</p>
-								<a href="" class="advice-img__link">Читать далее</a>
+								<a href="advice-types-bricks.html" class="advice-img__link">Читать далее</a>
 							</div>
 						</li>
 						<li class="advice-img__item">
@@ -53,7 +53,7 @@
 							<div class="advice-img__text-wrap">
 								<h3 class="advice-img__title">Как выполняется кладка?</h3>
 								<p class="advice-img__text">Технология кладочных работ подробно описана в другой нашей статье, а в этом материале мы...</p>
-								<a href="" class="advice-img__link">Читать далее</a>
+								<a href="advice-types-bricks.html" class="advice-img__link">Читать далее</a>
 							</div>
 						</li>
 					</ul>

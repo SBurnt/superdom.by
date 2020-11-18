@@ -6,19 +6,19 @@
 				<div class="advices__content">
 					<ul class="advices__list">
 						<li class="advices__item">
-							<a class="advices__link" href="advices/advices.html">Как определить необходимое количество кирпича ручной формовки?</a>
+							<a class="advices__link" href="advice-types-bricks.html">Как определить необходимое количество кирпича ручной формовки?</a>
 						</li>
 						<li class="advices__item">
-							<a class="advices__link" href="advices/advices.html">Защита камня от влаги и загрязнений при температурных перепадах.</a>
+							<a class="advices__link" href="advice-types-bricks.html">Защита камня от влаги и загрязнений при температурных перепадах.</a>
 						</li>
 						<li class="advices__item">
-							<a class="advices__link" href="advices/advices.html">Инструменты и приспособления для работы с кирпичом ручной формовки «Real Brick».</a>
+							<a class="advices__link" href="advice-types-bricks.html">Инструменты и приспособления для работы с кирпичом ручной формовки «Real Brick».</a>
 						</li>
 						<li class="advices__item">
-							<a class="advices__link" href="advices/advices.html">Общие правила укладки кирпича ручной формовки «Real Brick».</a>
+							<a class="advices__link" href="advice-types-bricks.html">Общие правила укладки кирпича ручной формовки «Real Brick».</a>
 						</li>
 						<li class="advices__item">
-							<a class="advices__link" href="advices/advices.html">Правильная расшивка швов кладки.</a>
+							<a class="advices__link" href="advice-types-bricks.html">Правильная расшивка швов кладки.</a>
 						</li>
 					</ul>
 				</div>

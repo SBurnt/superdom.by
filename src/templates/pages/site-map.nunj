@@ -24,16 +24,16 @@
 								<a href="catalog.html" class="site-map__link">Каталог</a>
 								<ul class="site-map__sublist">
 									<li class="site-map__subitem">
-										<a href="" class="site-map__sublink">Плитка ручной формовки</a>
+										<a href="hand-molded.html" class="site-map__sublink">Плитка ручной формовки</a>
 									</li>
 									<li class="site-map__subitem">
-										<a href="" class="site-map__sublink">Кирпич ручной формовки</a>
+										<a href="hand-molded.html" class="site-map__sublink">Кирпич ручной формовки</a>
 									</li>
 									<li class="site-map__subitem">
-										<a href="" class="site-map__sublink">Декоративные элементы</a>
+										<a href="404.html" class="site-map__sublink">Декоративные элементы</a>
 									</li>
 									<li class="site-map__subitem">
-										<a href="" class="site-map__sublink">Сопутствующие товары</a>
+										<a href="related-products.html" class="site-map__sublink">Сопутствующие товары</a>
 									</li>
 								</ul>
 							</li>
@@ -41,22 +41,22 @@
 								<a href="about-company.html" class="site-map__link">О компании</a>
 								<ul class="site-map__sublist">
 									<li class="site-map__subitem">
-										<a href="" class="site-map__sublink">Статьи</a>
+										<a href="advice.html" class="site-map__sublink">Статьи</a>
 									</li>
 									<li class="site-map__subitem">
-										<a href="" class="site-map__sublink">Область применения, особенности производства</a>
+										<a href="404.html" class="site-map__sublink">Область применения, особенности производства</a>
 									</li>
 									<li class="site-map__subitem">
-										<a href="" class="site-map__sublink">Условия заказа</a>
+										<a href="404.html" class="site-map__sublink">Условия заказа</a>
 									</li>
 									<li class="site-map__subitem">
-										<a href="" class="site-map__sublink">Гарантия</a>
+										<a href="404.html" class="site-map__sublink">Гарантия</a>
 									</li>
 									<li class="site-map__subitem">
-										<a href="" class="site-map__sublink">Самовывоз</a>
+										<a href="404.html" class="site-map__sublink">Самовывоз</a>
 									</li>
 									<li class="site-map__subitem">
-										<a href="" class="site-map__sublink">Замена и возврат</a>
+										<a href="404.html" class="site-map__sublink">Замена и возврат</a>
 									</li>
 								</ul>
 							</li>
@@ -64,13 +64,13 @@
 								<a href="gallery.html" class="site-map__link">Галерея</a>
 								<ul class="site-map__sublist">
 									<li class="site-map__subitem">
-										<a href="" class="site-map__sublink">Камень</a>
+										<a href="404.html" class="site-map__sublink">Камень</a>
 									</li>
 									<li class="site-map__subitem">
-										<a href="" class="site-map__sublink">Плитка</a>
+										<a href="404.html" class="site-map__sublink">Плитка</a>
 									</li>
 									<li class="site-map__subitem">
-										<a href="" class="site-map__sublink">Наружная отделка</a>
+										<a href="404.html" class="site-map__sublink">Наружная отделка</a>
 									</li>
 								</ul>
 							</li>

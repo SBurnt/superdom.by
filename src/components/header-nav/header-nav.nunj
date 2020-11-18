@@ -1,7 +1,6 @@
 <nav class="header__nav">
 	<ul class="nav__items">
 		{% for item in navItems %}
-
 			{% if item.name == "Каталог" %}
 				<li class="nav__item{% if item.classActive == "active" %} active{% endif %} mobMenuDrop">
 					<svg class="bricks-ico" width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,19 +57,19 @@
 							<a href="information.html" class="nav__link">Информационная страница</a>
 						</li>
 						<li class="nav__item">
-							<a href="" class="nav__link">Область применения</a>
+							<a href="404.html" class="nav__link">Область применения</a>
 						</li>
 						<li class="nav__item">
-							<a href="" class="nav__link">Особенности производства</a>
+							<a href="404.html" class="nav__link">Особенности производства</a>
 						</li>
 						<li class="nav__item">
-							<a href="" class="nav__link">Условя заказа</a>
+							<a href="404.html" class="nav__link">Условя заказа</a>
 						</li>
 						<li class="nav__item">
-							<a href="" class="nav__link">Самовывоз</a>
+							<a href="404.html" class="nav__link">Самовывоз</a>
 						</li>
 						<li class="nav__item">
-							<a href="" class="nav__link">Замена и возврат</a>
+							<a href="404.html" class="nav__link">Замена и возврат</a>
 						</li>
 					</ul>
 				</li>
