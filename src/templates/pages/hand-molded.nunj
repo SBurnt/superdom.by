@@ -21,6 +21,7 @@
 		{{ seo({
 			title: false
 		}) }}
+		{% include "../blocks/filter.nunj" %}
 		{% include "../blocks/hand-molded-block.nunj" %}
 		{{ seo({
 			title: true

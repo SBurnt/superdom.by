@@ -1,0 +1,40 @@
+.filter__range {
+  width: 194px;
+  margin-top: 15px;
+
+  .noUi-horizontal {
+    height: 4px;
+  }
+  .noUi-target {
+    background: #bcbcbc;
+    border: none;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+
+  .noUi-connect {
+    background: $color-red;
+  }
+
+  .noUi-horizontal .noUi-handle {
+    width: 18px;
+		height: 18px;
+		outline: none;
+  }
+
+  .noUi-handle {
+    background: #bcbcbc;
+    border: 3px solid red;
+    border-radius: 50%;
+		box-shadow: none;
+
+		&::before,
+		&::after {
+			content: none;
+		}
+	}
+
+	.noUi-handle-upper {
+		right: 0;
+	}
+}

@@ -1,0 +1,34 @@
+<div class="filter">
+	<div class="container">
+		<form class="" action="">
+			<legend class="filter__header">Фильтр по параметрам</legend>
+			<div class="filter__wrap">
+				<div class="filter__section">
+					<div class="filter__title">Цена</div>
+					<div class="filter__data">
+						<label class="filter__label">
+							<input class="filter__input" type="text" id="filter__input" name="min-range" value="1100">
+						</label>
+						<label>
+							<input class="filter__input" type="text" id="filter__input" name="max-range" value="2500">
+						</label class="filter__label">
+					</div>
+					<div class="filter__range">
+						<div class="js-filter-range"></div>
+					</div>
+				</div>
+				<div class="filter__section">
+					<div class="filter__title">Коллекция</div>
+					<div class="filter__collection">
+						<select name="" id="" class="">
+							<option value="all">Все</option>
+							<option value="collect-01">REALBRICK. Коллекция 1</option>
+							<option value="collect-02">REALBRICK. Коллекция 2</option>
+							<option value="collect-03">REALBRICK. Коллекция 3</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>

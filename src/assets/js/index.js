@@ -6,6 +6,7 @@ import './tabs-gallery';
 import './modals';
 import './modal-work-exx';
 import './customScrollbars';
+import './customInputRange';
 
 if (module.hot) {
 	module.hot.accept();
