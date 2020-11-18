@@ -7,6 +7,7 @@ import './modals';
 import './modal-work-exx';
 import './customScrollbars';
 import './customInputRange';
+import './customSelect';
 
 if (module.hot) {
 	module.hot.accept();

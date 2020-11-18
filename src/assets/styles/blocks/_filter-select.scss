@@ -1,0 +1,107 @@
+.filter {
+  &__collection {
+    position: relative;
+
+
+    width: 299px;
+		height: 36px;
+
+		@include media("max", "md") {
+    width: 100%;
+    max-width: 299px;
+    }
+
+    // &:after {
+    // 	content: '';
+    // 	position: absolute;
+    // 	top: 50%;
+    // 	right: 15px;
+
+    // 	width: 8px;
+    // 	height: 8px;
+
+    // 	border-right: 1px solid #666666;
+    // 	border-bottom: 1px solid #666666;
+    // 	transform: translateY(-50%) rotate(45deg);
+
+    // 	transition: transform 0.1s ease-in-out;
+    // }
+  }
+
+  &__select {
+    width: 100%;
+    height: 36px;
+    padding: 10px 14px;
+
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #969696;
+
+    background: #2e2d2d;
+    border: none;
+    border-radius: 1px;
+    outline: none;
+
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+  }
+
+  .choices__inner {
+    min-height: auto;
+    padding: 10px 14px;
+
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #969696;
+
+    background-color: #2e2d2d;
+    border: none;
+    border-radius: 1px;
+  }
+
+  .choices[data-type*="select-one"] .choices__inner {
+    padding-bottom: 10px;
+  }
+
+  .choices__list--single {
+    padding: 0;
+  }
+
+  .choices[data-type*="select-one"]:after {
+    border-color: #666666 transparent transparent;
+  }
+
+  .choices[data-type*="select-one"].is-open:after {
+    border-color: transparent transparent #666666;
+  }
+
+  .choices__list--dropdown {
+    background-color: #444444;
+    border: none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.35);
+  }
+
+  .choices__list--dropdown .choices__list {
+    max-height: none;
+  }
+
+  .choices__list--dropdown .choices__item--selectable.is-highlighted {
+    color: $color-red;
+
+    background-color: #2d2d2d;
+  }
+
+  .choices__list--dropdown .choices__item {
+    padding: 7px 14px;
+
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .choices__list--dropdown .choices__item--selectable.is-highlighted:after {
+    display: none;
+  }
+}

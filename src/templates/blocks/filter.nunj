@@ -1,6 +1,6 @@
 <div class="filter">
 	<div class="container">
-		<form class="" action="">
+		<form class="filter__form" action="">
 			<legend class="filter__header">Фильтр по параметрам</legend>
 			<div class="filter__wrap">
 				<div class="filter__section">
@@ -20,11 +20,20 @@
 				<div class="filter__section">
 					<div class="filter__title">Коллекция</div>
 					<div class="filter__collection">
-						<select name="" id="" class="">
+						<select class="filter__select js-collection-select">
 							<option value="all">Все</option>
 							<option value="collect-01">REALBRICK. Коллекция 1</option>
 							<option value="collect-02">REALBRICK. Коллекция 2</option>
 							<option value="collect-03">REALBRICK. Коллекция 3</option>
+							<option value="collect-01">REALBRICK. Коллекция 4</option>
+							<option value="collect-02">REALBRICK. Коллекция 5</option>
+							<option value="collect-03">REALBRICK. Коллекция 6</option>
+							<option value="collect-01">REALBRICK. Коллекция 7</option>
+							<option value="collect-02">REALBRICK. Коллекция 8</option>
+							<option value="collect-03">REALBRICK. Коллекция 9</option>
+							<option value="collect-01">REALBRICK. Коллекция 10</option>
+							<option value="collect-02">REALBRICK. Коллекция 11</option>
+							<option value="collect-03">REALBRICK. Коллекция 12</option>
 						</select>
 					</div>
 				</div>
