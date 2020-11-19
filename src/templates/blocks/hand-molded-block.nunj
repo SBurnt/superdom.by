@@ -7,7 +7,7 @@
 						<div class="header__main">
 							<div class="main__left">
 								<div class="main__img-wrap">
-									<img class="main__img" src="assets/images/hand-molded/hand-molded-02.png" alt="REAL BRICK. Коллекция 2 (в стиле PROVENCE)">
+									<img class="main__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-02.png" alt="REAL BRICK. Коллекция 2 (в стиле PROVENCE)">
 								</div>
 								<span class="main__manufacturer">производство Супер Дом, РБ</span>
 							</div>
@@ -46,105 +46,105 @@
 						<ul class="body__list">
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
 								</div>
 								<span class="body__text">RB 2-03 loft</span>
 								<span class="body__text">глина лофт</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
 								</div>
 								<span class="body__text">RB 2-03 loft</span>
 								<span class="body__text">глина лофт</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
 								</div>
 								<span class="body__text">RB 2-03 rustik</span>
 								<span class="body__text">глина рустик</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-05.png" alt="RB 4-13 antic глина античная графитовая">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-05.png" alt="RB 4-13 antic глина античная графитовая">
 								</div>
 								<span class="body__text">RB 4-13 antic</span>
 								<span class="body__text">глина античная графитовая</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-06.png" alt="RB 2-03 loft глина лофт">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-06.png" alt="RB 2-03 loft глина лофт">
 								</div>
 								<span class="body__text">RB 2-03 loft</span>
 								<span class="body__text">глина лофт</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
 								</div>
 								<span class="body__text">RB 2-03 loft</span>
 								<span class="body__text">глина лофт</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
 								</div>
 								<span class="body__text">RB 2-03 loft</span>
 								<span class="body__text">глина лофт</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
 								</div>
 								<span class="body__text">RB 2-03 rustik</span>
 								<span class="body__text">глина рустик</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-05.png" alt="RB 4-13 antic глина античная графитовая">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-05.png" alt="RB 4-13 antic глина античная графитовая">
 								</div>
 								<span class="body__text">RB 4-13 antic</span>
 								<span class="body__text">глина античная графитовая</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-06.png" alt="RB 2-03 loft глина лофт">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-06.png" alt="RB 2-03 loft глина лофт">
 								</div>
 								<span class="body__text">RB 2-03 loft</span>
 								<span class="body__text">глина лофт</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
 								</div>
 								<span class="body__text">RB 2-03 loft</span>
 								<span class="body__text">глина лофт</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
 								</div>
 								<span class="body__text">RB 2-03 loft</span>
 								<span class="body__text">глина лофт</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
 								</div>
 								<span class="body__text">RB 2-03 rustik</span>
 								<span class="body__text">глина рустик</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-05.png" alt="RB 4-13 antic глина античная графитовая">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-05.png" alt="RB 4-13 antic глина античная графитовая">
 								</div>
 								<span class="body__text">RB 4-13 antic</span>
 								<span class="body__text">глина античная графитовая</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-06.png" alt="RB 2-03 loft глина лофт">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-06.png" alt="RB 2-03 loft глина лофт">
 								</div>
 								<span class="body__text">RB 2-03 loft</span>
 								<span class="body__text">глина лофт</span>
@@ -158,7 +158,7 @@
 						<div class="header__main">
 							<div class="main__left">
 								<div class="main__img-wrap">
-									<img class="main__img" src="assets/images/hand-molded/hand-molded-02.png" alt="REAL BRICK. Коллекция 2 (в стиле PROVENCE)">
+									<img class="main__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-02.png" alt="REAL BRICK. Коллекция 2 (в стиле PROVENCE)">
 								</div>
 								<span class="main__manufacturer">производство Супер Дом, РБ</span>
 							</div>
@@ -196,56 +196,56 @@
 						<ul class="body__list">
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
 								</div>
 								<span class="body__text">RB 2-03 loft</span>
 								<span class="body__text">глина лофт</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
 								</div>
 								<span class="body__text">RB 2-03 loft</span>
 								<span class="body__text">глина лофт</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
 								</div>
 								<span class="body__text">RB 2-03 rustik</span>
 								<span class="body__text">глина рустик</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-05.png" alt="RB 4-13 antic глина античная графитовая">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-05.png" alt="RB 4-13 antic глина античная графитовая">
 								</div>
 								<span class="body__text">RB 4-13 antic</span>
 								<span class="body__text">глина античная графитовая</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-06.png" alt="RB 2-03 loft глина лофт">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-06.png" alt="RB 2-03 loft глина лофт">
 								</div>
 								<span class="body__text">RB 2-03 loft</span>
 								<span class="body__text">глина лофт</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
 								</div>
 								<span class="body__text">RB 2-03 loft</span>
 								<span class="body__text">глина лофт</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
 								</div>
 								<span class="body__text">RB 2-03 loft</span>
 								<span class="body__text">глина лофт</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
 								</div>
 								<span class="body__text">RB 2-03 rustik</span>
 								<span class="body__text">глина рустик</span>
@@ -258,7 +258,7 @@
 						<div class="header__main">
 							<div class="main__left">
 								<div class="main__img-wrap">
-									<img class="main__img" src="assets/images/hand-molded/hand-molded-02.png" alt="REAL BRICK. Коллекция 2 (в стиле PROVENCE)">
+									<img class="main__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-02.png" alt="REAL BRICK. Коллекция 2 (в стиле PROVENCE)">
 								</div>
 								<span class="main__manufacturer">производство Супер Дом, РБ</span>
 							</div>
@@ -296,35 +296,35 @@
 						<ul class="body__list">
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-02.png" alt="RB 2-03 loft глина лофт">
 								</div>
 								<span class="body__text">RB 2-03 loft</span>
 								<span class="body__text">глина лофт</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-03.png" alt="RB 2-03 loft глина лофт">
 								</div>
 								<span class="body__text">RB 2-03 loft</span>
 								<span class="body__text">глина лофт</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-04.png" alt="RB 2-03 rustik глина рустик">
 								</div>
 								<span class="body__text">RB 2-03 rustik</span>
 								<span class="body__text">глина рустик</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-05.png" alt="RB 4-13 antic глина античная графитовая">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-05.png" alt="RB 4-13 antic глина античная графитовая">
 								</div>
 								<span class="body__text">RB 4-13 antic</span>
 								<span class="body__text">глина античная графитовая</span>
 							</li>
 							<li class="body__item">
 								<div class="body__img-wrap">
-									<img class="body__img" src="assets/images/hand-molded/hand-molded-06.png" alt="RB 2-03 loft глина лофт">
+									<img class="body__img lazyload" loading="lazy" data-src="assets/images/hand-molded/hand-molded-06.png" alt="RB 2-03 loft глина лофт">
 								</div>
 								<span class="body__text">RB 2-03 loft</span>
 								<span class="body__text">глина лофт</span>

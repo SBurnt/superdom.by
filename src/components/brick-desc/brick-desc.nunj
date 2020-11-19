@@ -1,6 +1,6 @@
 {% macro brickDesc(props) %}
 	<div class="brick-desc">
-		<img class="brick-desc__img" src="{{ props.img }}" alt="brick">
+		<img class="brick-desc__img lazyload" data-src="{{ props.img }}" alt="brick" loading="lazy">
 		<div class="brick-desc__content">
 			<div class="brick-desc__text">
 				<h3 class="brick-desc__title">{{ props.title }}</h3>

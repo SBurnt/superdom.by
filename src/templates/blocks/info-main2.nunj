@@ -29,27 +29,27 @@
 					<ul class="certificates__list">
 						<li class="certificates__item">
 							<a data-fslightbox="certificates" href="assets/images/certificates/certificate-01.png" class="certificates__link">
-								<img class="certificates__img" src="assets/images/certificates/certificate-01.png" alt="патент">
+								<img class="certificates__img lazyload" data-src="assets/images/certificates/certificate-01.png" alt="патент" loading="lazy">
 							</a>
 						</li>
 						<li class="certificates__item">
 							<a data-fslightbox="certificates" href="assets/images/certificates/certificate-02.png" class="certificates__link">
-								<img class="certificates__img" src="assets/images/certificates/certificate-02.png" alt="патент">
+								<img class="certificates__img lazyload" data-src="assets/images/certificates/certificate-02.png" alt="патент" loading="lazy">
 							</a>
 						</li>
 						<li class="certificates__item">
 							<a data-fslightbox="certificates" href="assets/images/certificates/certificate-03.png" class="certificates__link">
-								<img class="certificates__img" src="assets/images/certificates/certificate-03.png" alt="свидетельство">
+								<img class="certificates__img lazyload" data-src="assets/images/certificates/certificate-03.png" alt="свидетельство" loading="lazy">
 							</a>
 						</li>
 						<li class="certificates__item">
 							<a data-fslightbox="certificates" href="assets/images/certificates/certificate-04.png" class="certificates__link">
-								<img class="certificates__img" src="assets/images/certificates/certificate-04.png" alt="декларация">
+								<img class="certificates__img lazyload" data-src="assets/images/certificates/certificate-04.png" alt="декларация" loading="lazy">
 							</a>
 						</li>
 						<li class="certificates__item">
 							<a data-fslightbox="certificates" href="assets/images/certificates/certificate-05.png" class="certificates__link">
-								<img class="certificates__img" src="assets/images/certificates/certificate-05.png" alt="техническое свидетельство">
+								<img class="certificates__img lazyload" data-src="assets/images/certificates/certificate-05.png" alt="техническое свидетельство" loading="lazy">
 							</a>
 						</li>
 					</ul>

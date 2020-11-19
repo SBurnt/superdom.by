@@ -1,25 +1,25 @@
 <div class="catalog">
 	<ul class="catalog__list">
 		<li class="catalog__item big">
-			<img class="catalog__img" src="assets/images/catalog/catalog-01.png" alt="Плитка ручной формовки">
+			<img class="catalog__img lazyload" data-src='assets/images/catalog/catalog-01.png' loading="lazy" alt="Плитка ручной формовки">
 			<a href="hand-molded.html" class="catalog__link">
 				<h3 class="catalog__item-info">Плитка ручной формовки</h3>
 			</a>
 		</li>
 		<li class="catalog__item">
-			<img class="catalog__img" src="assets/images/catalog/catalog-02.png" alt="Кирпич ручной формовки">
+			<img class="catalog__img lazyload" data-src='assets/images/catalog/catalog-02.png' loading="lazy" alt="Кирпич ручной формовки">
 			<a href="hand-molded.html" class="catalog__link">
 				<h3 class="catalog__item-info">Кирпич ручной формовки</h3>
 			</a>
 		</li>
 		<li class="catalog__item">
-			<img class="catalog__img" src="assets/images/catalog/catalog-03.png" alt="Декоративные элементы">
+			<img class="catalog__img lazyload" data-src='assets/images/catalog/catalog-03.png' loading="lazy" alt="Декоративные элементы">
 			<a href="404.html" class="catalog__link">
 				<h3 class="catalog__item-info">Декоративные элементы</h3>
 			</a>
 		</li>
 		<li class="catalog__item big">
-			<img class="catalog__img" src="assets/images/catalog/catalog-04.png" alt="Сопутствующие товары">
+			<img class="catalog__img lazyload" data-src='assets/images/catalog/catalog-04.png' loading="lazy" alt="Сопутствующие товары">
 			<a href="related-products.html" class="catalog__link">
 				<h3 class="catalog__item-info">Сопутствующие товары</h3>
 			</a>

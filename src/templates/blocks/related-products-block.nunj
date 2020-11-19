@@ -4,7 +4,7 @@
 			<ul class="related-products__list">
 				<li class="related-products__item">
 					<div class="related-products__img-wrap">
-						<img class="related-products__img" src="assets\images\related-products\related-products-01.png" alt='Затирка ИНТЕРЬЕРНАЯ "Real Brick"'>
+						<img class="related-products__img lazyload" loading="lazy" data-src="assets\images\related-products\related-products-01.png" alt='Затирка ИНТЕРЬЕРНАЯ "Real Brick"'>
 					</div>
 					<div class="related-products__info">
 						<h3 class="related-products__title">Затирка ИНТЕРЬЕРНАЯ "Real Brick"</h3>
@@ -12,7 +12,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-00.png" alt="Натуральный (В-00)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-00.png" alt="Натуральный (В-00)">
 									</div>
 									<span class="products__title">Натуральный (В-00)</span>
 								</div>
@@ -26,7 +26,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-12.png" alt="Античный серый (Н-12/1)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-12.png" alt="Античный серый (Н-12/1)">
 									</div>
 									<span class="products__title">Античный серый (Н-12/1)</span>
 								</div>
@@ -40,7 +40,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-13.png" alt="Натуральный (В-00)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-13.png" alt="Натуральный (В-00)">
 									</div>
 									<span class="products__title">Натуральный (В-00)</span>
 								</div>
@@ -56,7 +56,7 @@
 				</li>
 				<li class="related-products__item">
 					<div class="related-products__img-wrap">
-						<img class="related-products__img" src="assets\images\related-products\related-products-02.png" alt="REAL BREAK Коллекция1 Ригельный кирпич">
+						<img class="related-products__img lazyload" loading="lazy" data-src="assets\images\related-products\related-products-02.png" alt="REAL BREAK Коллекция1 Ригельный кирпич">
 					</div>
 					<div class="related-products__info">
 						<h3 class="related-products__title">REAL BREAK Коллекция1 Ригельный кирпич"</h3>
@@ -64,7 +64,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-12.png" alt="Натуральный (В-00)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-12.png" alt="Натуральный (В-00)">
 									</div>
 									<span class="products__title">Натуральный (В-00)</span>
 								</div>
@@ -78,7 +78,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-00.png" alt="Античный серый (Н-12/1)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-00.png" alt="Античный серый (Н-12/1)">
 									</div>
 									<span class="products__title">Античный серый (Н-12/1)</span>
 								</div>
@@ -92,7 +92,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-13.png" alt="Натуральный (В-00)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-13.png" alt="Натуральный (В-00)">
 									</div>
 									<span class="products__title">Натуральный (В-00)</span>
 								</div>
@@ -108,7 +108,7 @@
 				</li>
 				<li class="related-products__item">
 					<div class="related-products__img-wrap">
-						<img class="related-products__img" src="assets\images\related-products\related-products-03.png" alt="Кирпич керамический">
+						<img class="related-products__img lazyload" loading="lazy" data-src="assets\images\related-products\related-products-03.png" alt="Кирпич керамический">
 					</div>
 					<div class="related-products__info">
 						<h3 class="related-products__title">Кирпич керамический</h3>
@@ -116,7 +116,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-00.png" alt="Натуральный (В-00)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-00.png" alt="Натуральный (В-00)">
 									</div>
 									<span class="products__title">Натуральный (В-00)</span>
 								</div>
@@ -130,7 +130,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-12.png" alt="Античный серый (Н-12/1)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-12.png" alt="Античный серый (Н-12/1)">
 									</div>
 									<span class="products__title">Античный серый (Н-12/1)</span>
 								</div>
@@ -157,7 +157,7 @@
 				</li>
 				<li class="related-products__item">
 					<div class="related-products__img-wrap">
-						<img class="related-products__img" src="assets\images\related-products\related-products-04.png" alt="REAL BREAK Коллекция1 Ригельный кирпич">
+						<img class="related-products__img lazyload" loading="lazy" data-src="assets\images\related-products\related-products-04.png" alt="REAL BREAK Коллекция1 Ригельный кирпич">
 					</div>
 					<div class="related-products__info">
 						<h3 class="related-products__title">REAL BREAK Коллекция1 Ригельный кирпич</h3>
@@ -165,7 +165,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-00.png" alt="Натуральный (В-00)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-00.png" alt="Натуральный (В-00)">
 									</div>
 									<span class="products__title">Натуральный (В-00)</span>
 								</div>
@@ -179,7 +179,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-12.png" alt="Античный серый (Н-12/1)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-12.png" alt="Античный серый (Н-12/1)">
 									</div>
 									<span class="products__title">Античный серый (Н-12/1)</span>
 								</div>
@@ -206,7 +206,7 @@
 				</li>
 				<li class="related-products__item">
 					<div class="related-products__img-wrap">
-						<img class="related-products__img" src="assets\images\related-products\related-products-05.png" alt="фото продукта">
+						<img class="related-products__img lazyload" loading="lazy" data-src="assets\images\related-products\related-products-05.png" alt="фото продукта">
 					</div>
 					<div class="related-products__info">
 						<h3 class="related-products__title">Затирка ИНТЕРЬЕРНАЯ "Real Brick"</h3>
@@ -214,7 +214,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-00.png" alt="Натуральный (В-00)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-00.png" alt="Натуральный (В-00)">
 									</div>
 									<span class="products__title">Натуральный (В-00)</span>
 								</div>
@@ -228,7 +228,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-12.png" alt="Античный серый (Н-12/1)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-12.png" alt="Античный серый (Н-12/1)">
 									</div>
 									<span class="products__title">Античный серый (Н-12/1)</span>
 								</div>
@@ -242,7 +242,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-13.png" alt="Натуральный (В-00)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-13.png" alt="Натуральный (В-00)">
 									</div>
 									<span class="products__title">Натуральный (В-00)</span>
 								</div>
@@ -258,7 +258,7 @@
 				</li>
 				<li class="related-products__item">
 					<div class="related-products__img-wrap">
-						<img class="related-products__img" src="assets\images\related-products\related-products-06.png" alt="фото продукта">
+						<img class="related-products__img lazyload" loading="lazy" data-src="assets\images\related-products\related-products-06.png" alt="фото продукта">
 					</div>
 					<div class="related-products__info">
 						<h3 class="related-products__title">Затирка ИНТЕРЬЕРНАЯ "Real Brick"</h3>
@@ -266,7 +266,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-00.png" alt="Натуральный (В-00)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-00.png" alt="Натуральный (В-00)">
 									</div>
 									<span class="products__title">Натуральный (В-00)</span>
 								</div>
@@ -280,7 +280,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-12.png" alt="Античный серый (Н-12/1)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-12.png" alt="Античный серый (Н-12/1)">
 									</div>
 									<span class="products__title">Античный серый (Н-12/1)</span>
 								</div>
@@ -294,7 +294,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-13.png" alt="Натуральный (В-00)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-13.png" alt="Натуральный (В-00)">
 									</div>
 									<span class="products__title">Натуральный (В-00)</span>
 								</div>
@@ -310,7 +310,7 @@
 				</li>
 				<li class="related-products__item">
 					<div class="related-products__img-wrap">
-						<img class="related-products__img" src="assets\images\related-products\related-products-07.png" alt="Кирпич керамический">
+						<img class="related-products__img lazyload" loading="lazy" data-src="assets\images\related-products\related-products-07.png" alt="Кирпич керамический">
 					</div>
 					<div class="related-products__info">
 						<h3 class="related-products__title">Кирпич керамический</h3>
@@ -318,7 +318,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-13.png" alt="Натуральный (В-00)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-13.png" alt="Натуральный (В-00)">
 									</div>
 									<span class="products__title">Натуральный (В-00)</span>
 								</div>
@@ -332,7 +332,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-12.png" alt="Античный серый (Н-12/1)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-12.png" alt="Античный серый (Н-12/1)">
 									</div>
 									<span class="products__title">Античный серый (Н-12/1)</span>
 								</div>
@@ -348,7 +348,7 @@
 				</li>
 				<li class="related-products__item">
 					<div class="related-products__img-wrap">
-						<img class="related-products__img" src="assets\images\related-products\related-products-08.png" alt="фото продукта">
+						<img class="related-products__img lazyload" loading="lazy" data-src="assets\images\related-products\related-products-08.png" alt="фото продукта">
 					</div>
 					<div class="related-products__info">
 						<h3 class="related-products__title">Затирка ИНТЕРЬЕРНАЯ "Real Brick"</h3>
@@ -356,7 +356,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-00.png" alt="Натуральный (В-00)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-00.png" alt="Натуральный (В-00)">
 									</div>
 									<span class="products__title">Натуральный (В-00)</span>
 								</div>
@@ -370,7 +370,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-12.png" alt="Античный серый (Н-12/1)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-12.png" alt="Античный серый (Н-12/1)">
 									</div>
 									<span class="products__title">Античный серый (Н-12/1)</span>
 								</div>
@@ -384,7 +384,7 @@
 							<li class="products__item">
 								<div class="products__item-top">
 									<div class="products__img-wrap">
-										<img class="products__img" src="assets\images\related-products\b-13.png" alt="Натуральный (В-00)">
+										<img class="products__img lazyload" loading="lazy" data-src="assets\images\related-products\b-13.png" alt="Натуральный (В-00)">
 									</div>
 									<span class="products__title">Натуральный (В-00)</span>
 								</div>
