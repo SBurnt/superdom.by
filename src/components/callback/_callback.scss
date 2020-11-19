@@ -1,13 +1,21 @@
 .callback {
-	&__btn {
-		padding: 7px 16px;
+  &__btn {
+    padding: 7px 16px;
 
-		font-weight: 700;
-		font-size: 15px;
-		line-height: 1;
-		color: $color-red;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1;
+    color: $color-red;
 
-		border: 1px solid $color-red;
-		border-radius: 5px;
-	}
+    border: 1px solid $color-red;
+    border-radius: 5px;
+
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: $color-primary;
+
+      background-color: $color-red;
+    }
+  }
 }
