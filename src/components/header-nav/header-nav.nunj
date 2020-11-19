@@ -54,9 +54,6 @@
 							<span>Назад</span>
 						</li>
 						<li class="nav__item">
-							<a href="information.html" class="nav__link">Информационная страница</a>
-						</li>
-						<li class="nav__item">
 							<a href="404.html" class="nav__link">Область применения</a>
 						</li>
 						<li class="nav__item">

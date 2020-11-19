@@ -1,0 +1,58 @@
+{% extends "../ext/base.nunj" %}
+{% block title %}Сотрудничество{% endblock title %}
+{% from "../../components/breadcrumbs/breadcrumbs.nunj" import breadcrumbs %}
+
+{% block content %}
+	{{ breadcrumbs({
+		second: false,
+		second_link: 'gallery.html',
+		second_title: 'Сотрудничество',
+		third_title: 'Сотрудничество'
+	}) }}
+	<main class="main information-page">
+		<section class="information">
+			<div class="container">
+				<div class="section__inner">
+					<h2 class="section__title left">Список страниц</h2>
+					<div class="information__content">
+						<ul>
+							<li>
+								<a href="index.html">Главная</a>
+							</li>
+							<li>
+								<a href="catalog.html">Каталог</a>
+							</li>
+							<li>
+								<a href="hand-molded.html">Плитка ручной формовки</a>
+							</li>
+							<li>
+								<a href="related-products.html">Сопутствующие товары</a>
+							</li>
+							<li>
+								<a href="advice.html">Статьи</a>
+							</li>
+							<li>
+								<a href="advice-types-bricks.html">Статья</a>
+							</li>
+							<li>
+								<a href="gallery.html">Галерея</a>
+							</li>
+							<li>
+								<a href="contacts.html">Контакты</a>
+							</li>
+							<li>
+								<a href="information.html">Информационная страница</a>
+							</li>
+							<li>
+								<a href="site-map.html">Карта сайта</a>
+							</li>
+							<li>
+								<a href="404.html">404</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+{% endblock %}
