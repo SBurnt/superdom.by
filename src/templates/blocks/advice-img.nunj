@@ -1,7 +1,6 @@
 <section class="advice-img">
 	<div class="container">
 		<div class="section__inner">
-			<h2 class="section__title left">Советы</h2>
 			<div class="advice-img__content">
 				<h3 class="advice-img__main-title">
 					<a href="advice-types-bricks.html" class="advice-img__main-title-link">Виды кирпича, используемые в строительст строительстве</a>

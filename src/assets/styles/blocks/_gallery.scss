@@ -1,112 +1,121 @@
 .gallery {
-	position: relative;
+  position: relative;
 
-	&__tabs {
-		display: flex;
-		align-items: center;
-		margin-bottom: 100px;
+  .section__inner {
+    padding-top: 0;
+  }
 
-		@include media('max', 'lg') {
-			margin-bottom: 50px;
-		}
-		@include media('max', 'sm') {
-			flex-direction: column;
-			margin-bottom: 30px;
-		}
-	}
+  &__tabs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
 
-	&__tab {
-		display: flex;
-		align-items: center;
-		margin-right: 10px;
-		padding: 16px 25px;
+    @include media("max", "lg") {
+      margin-bottom: 50px;
+    }
+    @include media("max", "sm") {
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
+  }
 
-		font-weight: 500;
-		font-size: 14px;
-		line-height: 17px;
-		text-transform: uppercase;
+  &__tab {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    padding: 16px 25px;
 
-		background-color: $bg-gray2;
-		border-radius: 3px;
-		cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
 
-		@include media('max', 'sm') {
-			width: 100%;
-			margin-right: 0;
-			margin-bottom: 5px;
-		}
+    background-color: $bg-gray2;
+    border-radius: 3px;
+    cursor: pointer;
 
-		svg {
-			margin-right: 17px;
-		}
+    @include media("max", "sm") {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
 
-		&.is-active,
-		&:hover {
-			color: $color-red;
+    svg {
+      margin-right: 17px;
+    }
 
-			background-color: $bg-gray3;
+    &.is-active,
+    &:hover {
+      color: $color-red;
 
-			svg path {
-				fill: $color-red;
-			}
-		}
-	}
+      background-color: $bg-gray3;
 
-	&__list {
-		display: none;
-		margin-right: -15px;
-		// display: flex;
-		// flex-wrap: wrap;
-		// justify-content: space-between;
+      svg path {
+        fill: $color-red;
+      }
+    }
+  }
 
-		@include media('max', 'sm') {
-			margin-right: 0;
-		}
+  &__list {
+    display: none;
+    margin-right: -15px;
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
 
-		&.is-active {
-			display: block;
-		}
-	}
+    @include media("max", "sm") {
+      margin-right: 0;
+    }
 
-	&__item {
-		float: left;
-		width: calc(100% / 4 - 15px);
-		height: 188px;
-		margin-right: 15px;
-		margin-bottom: 15px;
+    &.is-active {
+      display: block;
+    }
+  }
 
-		@include media('max', 'lg') {
-			width: calc(100% / 3 - 15px);
-		}
-		@include media('max', 'md') {
-			width: calc(100% / 2 - 15px);
-		}
-		@include media('max', 'sm') {
-			width: calc(100%);
-			margin-right: 0;
-		}
+  &__item {
+    float: left;
+    width: calc(100% / 4 - 15px);
+    height: 188px;
+    margin-right: 15px;
+    margin-bottom: 15px;
 
-		&:first-child {
-			width: calc(50% - 15px);
-			height: 391px;
+    @include media("max", "lg") {
+      width: calc(100% / 3 - 15px);
+    }
+    @include media("max", "md") {
+      width: calc(100% / 2 - 15px);
+    }
+    @include media("max", "sm") {
+      width: calc(100%);
+      margin-right: 0;
+    }
 
-			@include media('max', 'lg') {
-				width: calc((100% / 3) * 2 - 15px);
-			}
-			@include media('max', 'md') {
-				width: calc(100% / 2 - 15px);
-				height: 188px;
-			}
-			@include media('max', 'sm') {
-				width: calc(100%);
-			}
-		}
-	}
+    &:first-child {
+      width: calc(50% - 15px);
+      height: 391px;
 
-	&__img {
-		width: 100%;
-		height: 100%;
+      @include media("max", "lg") {
+        width: calc((100% / 3) * 2 - 15px);
+      }
+      @include media("max", "md") {
+        width: calc(100% / 2 - 15px);
+        height: 188px;
+      }
+      @include media("max", "sm") {
+        width: calc(100%);
+      }
+    }
+  }
 
-		object-fit: cover;
-	}
+  &__img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  .seo .container {
+    max-width: none;
+    padding: 0;
+  }
 }

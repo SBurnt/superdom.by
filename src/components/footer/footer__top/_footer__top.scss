@@ -31,6 +31,9 @@
 	}
 
 	.callback {
+		&__btn {
+			padding: 11px 16px;
+		}
 		@include media('max', 'sm') {
 			flex-basis: auto;
 			margin: 0 auto;

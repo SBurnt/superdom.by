@@ -11,7 +11,7 @@
 		third_title: 'Плитка ручной формовки'
 	}) }}
 	<main class="main hand-molded-page">
-		<section class="title">
+		<section class="title__page">
 			<div class="container">
 				<div class="section__inner">
 					<h2 class="section__title left">Плитка ручной формовки</h2>

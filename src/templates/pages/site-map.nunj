@@ -10,11 +10,16 @@
 		third_title: 'Карта сайта'
 	}) }}
 	<main class="main site-map-page">
-		{# {% include "../blocks/advice-img.nunj" %} #}
-		<section class="site-map">
+		<section class="title__page">
 			<div class="container">
 				<div class="section__inner">
 					<h2 class="section__title left">карта сайта</h2>
+				</div>
+			</div>
+		</section>
+		<section class="site-map">
+			<div class="container">
+				<div class="section__inner">
 					<div class="site-map__content">
 						<ul class="site-map__list">
 							<li class="site-map__item">

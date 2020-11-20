@@ -10,10 +10,16 @@
 		third_title: 'Сотрудничество'
 	}) }}
 	<main class="main information-page">
-		<section class="information">
+		<section class="title__page">
 			<div class="container">
 				<div class="section__inner">
 					<h2 class="section__title left">Список страниц</h2>
+				</div>
+			</div>
+		</section>
+		<section class="information">
+			<div class="container">
+				<div class="section__inner">
 					<div class="information__content">
 						<ul>
 							<li>

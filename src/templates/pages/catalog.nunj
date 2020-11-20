@@ -11,10 +11,16 @@
 		third_title: 'Каталог'
 	}) }}
 	<main class="main">
+		<section class="title__page">
+			<div class="container">
+				<div class="section__inner">
+					<h2 class="section__title left">каталог</h2>
+				</div>
+			</div>
+		</section>
 		<section class="catalog-page">
 			<div class="container">
 				<div class="section__inner">
-					<h2 class="section__title left">Каталог</h2>
 					{% include '../../components/catalog/catalog.nunj' %}
 				</div>
 			</div>

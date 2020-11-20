@@ -10,6 +10,13 @@
 		third_title: 'Контакты'
 	}) }}
 	<main class="main contacts-page">
+		<section class="title__page">
+			<div class="container">
+				<div class="section__inner">
+					<h2 class="section__title left">контакты</h2>
+				</div>
+			</div>
+		</section>
 		{% include "../blocks/contacts.nunj" %}
 		{% include "../blocks/feedback.nunj" %}
 		{% include "../blocks/gallery-one-row.nunj" %}

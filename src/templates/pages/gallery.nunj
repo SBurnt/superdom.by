@@ -1,6 +1,7 @@
 {% extends "../ext/base.nunj" %}
 {% block title %}Галерея{% endblock title %}
 {% from "../../components/breadcrumbs/breadcrumbs.nunj" import breadcrumbs %}
+{% from "../../components/seo/seo.nunj" import seo %}
 
 {% block content %}
 	{{ breadcrumbs({
@@ -10,10 +11,16 @@
 		third_title: 'ПРИМЕРЫ РАБОТ НАШИХ КЛИЕНТОВ'
 	}) }}
 	<main class="main">
-		<section class="gallery">
+		<section class="title__page">
 			<div class="container">
 				<div class="section__inner">
 					<h2 class="section__title left">ПРИМЕРЫ РАБОТ НАШИХ КЛИЕНТОВ</h2>
+				</div>
+			</div>
+		</section>
+		<section class="gallery">
+			<div class="container">
+				<div class="section__inner">
 					<div class="gallery__tabs">
 						<div class="gallery__tab is-active" data-tab-gallery='tab-brick'>
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,6 +55,9 @@
 							отделка
 						</div>
 					</div>
+					{{ seo({
+						title: false
+					}) }}
 					<div class="gallery__wrap">
 						<ul class="gallery__list clearfix tab-brick is-active">
 							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-01.png" alt="фото наших работ"></li>

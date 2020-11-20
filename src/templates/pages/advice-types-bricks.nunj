@@ -10,10 +10,16 @@
 		third_title: 'виды кирпича, используемые в строительстве'
 	}) }}
 	<main class="main">
-		<section class="information">
+		<section class="title__page">
 			<div class="container">
 				<div class="section__inner">
 					<h2 class="section__title left">виды кирпича, используемые в строительстве</h2>
+				</div>
+			</div>
+		</section>
+		<section class="information">
+			<div class="container">
+				<div class="section__inner">
 					<div class="information__content">
 						<img src="assets/images/advice/advice-06.png" alt="фото фасада дома">
 						<p>Кирпичная кладка является одним из древнейших способов строительства зданий, и сегодня существуют различные виды кирпичной кладки – как черновой, так и лицевой. Также от выбранного типа укладки кирпича зависит прочность, надежность и долговечность зданий и сооружений. В очередной нашей статье мы раскроем вопросы о способах перевязки, , разновидностях обкладки фасадов кирпичом и рассмотрим ключевые особенности каждого вида укладки.</p>

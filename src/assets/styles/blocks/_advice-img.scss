@@ -1,6 +1,10 @@
 .advice-img {
 	position: relative;
 
+	.section__inner {
+		padding-top: 0;
+	}
+
 	&__main-title {
 		width: calc(50% - 30px);
 		margin-bottom: 15px;

@@ -10,10 +10,16 @@
 		third_title: 'Страница не найдена'
 	}) }}
 	<main class="main page-404">
-		<section class="page-not-found">
+		<section class="title__page">
 			<div class="container">
 				<div class="section__inner">
 					<h2 class="section__title left">страница не найдена</h2>
+				</div>
+			</div>
+		</section>
+		<section class="page-not-found">
+			<div class="container">
+				<div class="section__inner">
 					<div class="page-not-found__content">
 						<div class="page-not-found__img-wrap">
 							<img class="page-not-found__img" src="assets/images/ico/ico-404.svg" alt="ошибка 404">

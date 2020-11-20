@@ -11,7 +11,7 @@
 		third_title: 'Сопутствующие товары'
 	}) }}
 	<main class="main related-products-page">
-		<section class="title">
+		<section class="title__page">
 			<div class="container">
 				<div class="section__inner">
 					<h2 class="section__title left">Сопутствующие товары</h2>
