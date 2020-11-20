@@ -21,6 +21,7 @@
 			{% include '../blocks/modals.nunj' %}
 		</div>
 		{% block scripts %}
+			<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 			<script src="assets/js/bundle.js?hash"></script>
 		{% endblock scripts %}
 	</body>

@@ -9,6 +9,7 @@ import './modal-work-exx';
 import './customScrollbars';
 import './customInputRange';
 import './customSelect';
+import './map';
 
 if (module.hot) {
 	module.hot.accept();
