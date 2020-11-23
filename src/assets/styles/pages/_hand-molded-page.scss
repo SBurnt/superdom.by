@@ -1,7 +1,12 @@
 .hand-molded-page {
-	.seo {
-		.section__inner {
-			padding-top: 0;
-		}
-	}
+  .seo {
+    .section__inner {
+      padding-top: 0;
+      padding-bottom: 40px;
+
+      @include media("max", "md") {
+        padding-bottom: 25px;
+      }
+    }
+  }
 }

@@ -2,14 +2,15 @@
   position: relative;
 
   .section__inner {
-    padding-top: 35px;
+		padding-top: 35px;
+		padding-bottom: 54px;
   }
 
   &__item {
     margin-bottom: 20px;
     padding: 20px;
 
-    background-color: $bg-dark1;
+    background-color: #181616;
     border-radius: 3px;
 
     @include media("max", "md") {
@@ -98,7 +99,7 @@
 
       &__novelty {
         display: inline-block;
-        margin-top: 20px;
+        margin-top: 6px;
         padding: 4px 8px;
 
         font-weight: 600;
@@ -141,6 +142,7 @@
       }
 
       &__title {
+        display: block;
         margin-bottom: 4px;
 
         font-weight: 600;

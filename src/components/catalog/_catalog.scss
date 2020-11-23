@@ -1,14 +1,14 @@
 .catalog {
   width: 80%;
   margin-left: auto;
-  padding: 40px;
+  padding: 40px 40px 30px 40px;
 
   background-color: $bg-dark1;
 
   @include media("max", "lg") {
     width: 100%;
     margin-top: 180px;
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
   }
 
   &__list {
@@ -71,6 +71,7 @@
 
   &__item-info {
     position: absolute;
+    top: 130px;
     right: 0;
     bottom: 0;
     left: 0;
@@ -82,7 +83,8 @@
     line-height: 20px;
     text-align: center;
 
-    background: rgba(0, 0, 0, 0.65);
+		background: rgba(0, 0, 0, 0.65);
+		transition: top 0.3s ease;
 
     @include media("max", "md") {
       font-size: 14px;

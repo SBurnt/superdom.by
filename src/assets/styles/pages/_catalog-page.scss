@@ -1,12 +1,25 @@
 .catalog-page {
-  .section__inner {
-    padding-top: 0;
-  }
-  .catalog {
-    width: 100%;
+  .catalogs {
+    background-color: $bg-dark1;
+    .section__inner {
+      margin-bottom: 30px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .catalog {
+      width: 100%;
+      padding-right: 0;
+      padding-left: 0;
 
-    @include media("max", "lg") {
-      margin-top: 0;
+      @include media("max", "lg") {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .seo {
+    .section__inner {
+      padding-bottom: 60px;
     }
   }
 }

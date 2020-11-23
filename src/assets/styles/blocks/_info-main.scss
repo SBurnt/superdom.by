@@ -64,7 +64,13 @@
 
       font-size: 14px;
       line-height: 18px;
+      font-family: $pt-sans;
       text-decoration: underline;
+
+      &:hover {
+        font-weight: 700;
+        text-decoration: none;
+      }
     }
   }
 
@@ -114,6 +120,10 @@
       margin-bottom: 10px;
       overflow: hidden;
 
+      border: 1px solid #c4c4c4;
+      border-radius: 3px;
+
+
       &:nth-child(3n + 3) {
         margin-right: 0;
       }
@@ -123,6 +133,7 @@
       position: relative;
 
       display: inline-block;
+      height: 100%;
 
       &::after {
         content: "";
@@ -173,10 +184,18 @@
       &:nth-child(n + 3) {
         padding-top: 25px;
 
-        border-top: 1px solid $color-gray;
+        border-top: 1px solid #707070;
 
         @include media("max", "md") {
           padding-top: 15px;
+        }
+      }
+
+      &:hover {
+        cursor: pointer;
+        .advices__link {
+          font-weight: 600;
+          text-decoration: none;
         }
       }
     }
@@ -190,9 +209,10 @@
         font-size: 13px;
       }
 
-      &:hover {
-        text-decoration: none;
-      }
+      // &:hover {
+      // 	text-decoration: none;
+      // 	font-weight: 600;
+      // }
     }
   }
 }

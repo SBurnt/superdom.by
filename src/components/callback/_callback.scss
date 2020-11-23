@@ -1,10 +1,11 @@
 .callback {
   &__btn {
-    padding: 7px 16px;
+    padding: 7px 17px;
 
     font-weight: 700;
     font-size: 15px;
     line-height: 1;
+    font-family: $pt-sans;
     color: $color-red;
 
     border: 1px solid $color-red;

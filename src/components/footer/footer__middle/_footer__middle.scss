@@ -3,7 +3,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 30px 0;
+		padding: 28px 0;
 
 		@include media('max', 'md') {
 			flex-direction: column;
@@ -29,6 +29,7 @@
 
 		@include media('max', 'md') {
 			margin-left: 0;
+			margin-top: 15px;
 		}
 	}
 
@@ -40,11 +41,11 @@
 
 		&__item {
 			width: 25%;
-			padding: 10px 0;
+			padding: 7px 0;
 
 			@include media('max', 'md') {
 				width: calc(100% / 3);
-				padding: 8px 0;
+				padding: 9px 0;
 			}
 		}
 

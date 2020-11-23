@@ -1,6 +1,7 @@
 {% extends "../ext/base.nunj" %}
 {% block title %}Контакты{% endblock title %}
 {% from "../../components/breadcrumbs/breadcrumbs.nunj" import breadcrumbs %}
+{% from "../../components/seo/seo.nunj" import seo %}
 
 {% block content %}
 	{{ breadcrumbs({
@@ -17,6 +18,9 @@
 				</div>
 			</div>
 		</section>
+		{{ seo({
+			title: false
+		}) }}
 		{% include "../blocks/contacts.nunj" %}
 		{% include "../blocks/feedback.nunj" %}
 		{% include "../blocks/gallery-one-row.nunj" %}

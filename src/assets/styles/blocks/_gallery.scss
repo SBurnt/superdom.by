@@ -8,7 +8,7 @@
   &__tabs {
     display: flex;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 
     @include media("max", "lg") {
       margin-bottom: 50px;
@@ -78,6 +78,10 @@
     height: 188px;
     margin-right: 15px;
     margin-bottom: 15px;
+    overflow: hidden;
+
+    border-radius: 2px;
+    cursor: pointer;
 
     @include media("max", "lg") {
       width: calc(100% / 3 - 15px);
@@ -88,6 +92,12 @@
     @include media("max", "sm") {
       width: calc(100%);
       margin-right: 0;
+    }
+
+    &:hover {
+      .gallery__img {
+        transform: scale(1.8);
+      }
     }
 
     &:first-child {
@@ -112,10 +122,18 @@
     height: 100%;
 
     object-fit: cover;
+
+    transition: all 0.3s ease;
   }
 
-  .seo .container {
-    max-width: none;
-    padding: 0;
+  .seo {
+    .container {
+      max-width: none;
+      padding: 0;
+    }
+
+    .section__inner {
+      padding-bottom: 33px;
+    }
   }
 }

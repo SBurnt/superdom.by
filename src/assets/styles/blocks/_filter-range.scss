@@ -17,24 +17,29 @@
   }
 
   .noUi-horizontal .noUi-handle {
+		top: -7px;
+		right: -11px;
+
     width: 18px;
-		height: 18px;
-		outline: none;
+    height: 18px;
+
+    outline: none;
+    cursor: pointer;
   }
 
   .noUi-handle {
     background: #bcbcbc;
     border: 3px solid red;
     border-radius: 50%;
-		box-shadow: none;
+    box-shadow: none;
 
-		&::before,
-		&::after {
-			content: none;
-		}
-	}
+    &::before,
+    &::after {
+      content: none;
+    }
+  }
 
-	.noUi-handle-upper {
-		right: 0;
-	}
+  .noUi-handle-upper {
+    // right: 0;
+  }
 }

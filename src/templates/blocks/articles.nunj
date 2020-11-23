@@ -8,7 +8,9 @@
 						<li class="left__item">
 							<a href="advice-types-bricks.html" class="left__link">
 								<figure class="figure">
-									<img class="figure__img lazyload" data-src="assets/images/articles/articles-01.png" loading="lazy" alt="стена с кирпичами">
+									<div class="figure__img-wrap">
+										<img class="figure__img lazyload" data-src="assets/images/articles/articles-01.png" loading="lazy" alt="стена с кирпичами">
+									</div>
 									<figcaption class="figure__text">Рамки и место обучения кадров позволяет выполнять важные Рамки и место обучения кадров позволяет выполнять важные</figcaption>
 								</figure>
 							</a>
@@ -16,7 +18,9 @@
 						<li class="left__item">
 							<a href="advice-types-bricks.html" class="left__link">
 								<figure class="figure">
-									<img class="figure__img lazyload" data-src="assets/images/articles/articles-02.png" loading="lazy" alt="стена с кирпичами">
+									<div class="figure__img-wrap">
+										<img class="figure__img lazyload" data-src="assets/images/articles/articles-02.png" loading="lazy" alt="стена с кирпичами">
+									</div>
 									<figcaption class="figure__text">Cоображения высшего порядка</figcaption>
 								</figure>
 							</a>

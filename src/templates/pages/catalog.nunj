@@ -10,7 +10,7 @@
 		second_title: 'Каталог',
 		third_title: 'Каталог'
 	}) }}
-	<main class="main">
+	<main class="main catalog-page">
 		<section class="title__page">
 			<div class="container">
 				<div class="section__inner">
@@ -18,7 +18,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="catalog-page">
+		<section class="catalogs">
 			<div class="container">
 				<div class="section__inner">
 					{% include '../../components/catalog/catalog.nunj' %}
