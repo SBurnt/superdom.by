@@ -1,8 +1,9 @@
 /* eslint-disable no-sequences */
 /* eslint-disable no-undef */
+const map = document.querySelector('#map');
 let myMap;
 function init() {
-	(myMap = new ymaps.Map('map', {
+	(myMap = new ymaps.Map(map, {
 		center: [53.90223, 27.556422],
 		zoom: 5,
 		controls: ['zoomControl'],
@@ -39,4 +40,6 @@ function init() {
 	myMap.behaviors.disable('scrollZoom');
 }
 
-ymaps.ready(init);
+if (map) {
+	ymaps.ready(init);
+}
