@@ -10,6 +10,7 @@ import './customScrollbars';
 import './customInputRange';
 import './customSelect';
 import './map';
+import './modal-gallery';
 
 if (module.hot) {
 	module.hot.accept();

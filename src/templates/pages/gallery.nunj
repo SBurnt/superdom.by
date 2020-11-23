@@ -60,32 +60,120 @@
 					}) }}
 					<div class="gallery__wrap">
 						<ul class="gallery__list clearfix tab-brick is-active">
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-01.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-02.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-03.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-04.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-05.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-06.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-07.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-08.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-09.png" alt="фото наших работ"></li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-01.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-02.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-03.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-04.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-05.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-06.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-07.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-08.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-09.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
 						</ul>
 						<ul class="gallery__list clearfix tab-tile">
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-05.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-02.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-03.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-04.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-09.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-08.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-06.png" alt="фото наших работ"></li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-03.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-02.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-05.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-06.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-01.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-08.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-09.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
 						</ul>
 						<ul class="gallery__list clearfix tab-decor">
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-02.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-04.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-03.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-01.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-08.png" alt="фото наших работ"></li>
-							<li class="gallery__item"><img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-05.png" alt="фото наших работ"></li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-02.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-04.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-05.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-01.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-08.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
+							<li class="gallery__item" data-path="modal-gallery" data-animation="fadeInUp" data-speed="300">
+								<img class="gallery__img lazyload" loading="lazy" data-src="assets/images/gallery/gallery-09.png" alt="фото наших работ">
+								<h3 class="gallery__title">Оформление санузла крафтовым кирпичом</h3>
+								<p class="gallery__description">Коллекции EMKA – это всегда модная, актуальная классика. Воспользовавший нашей коллекцией REAL BRIK “Античная глина”, бутик был преобразован в новое дизайнерское решение.</p>
+							</li>
 						</ul>
 					</div>
 				</div>

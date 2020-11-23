@@ -1,4 +1,5 @@
 <div class="modals fix-block">
 	{% include "../../components/modal-callback/modal-callback.nunj" %}
 	{% include "../../components/modal-work-exx/modal-work-exx.nunj" %}
+	{% include "../../components/modal-gallery/modal-gallery.nunj" %}
 </div>

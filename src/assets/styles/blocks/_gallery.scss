@@ -126,6 +126,11 @@
     transition: all 0.3s ease;
   }
 
+  &__title,
+  &__description {
+    display: none;
+  }
+
   .seo {
     .container {
       max-width: none;
