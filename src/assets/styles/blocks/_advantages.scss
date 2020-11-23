@@ -1,4 +1,13 @@
 .advantages {
+
+	.section__inner {
+    padding-bottom: 70px;
+
+    @include media("max", "lg") {
+      padding-bottom: 50px;
+    }
+	}
+
 	&__list {
 		display: flex;
 		justify-content: space-between;
@@ -55,7 +64,7 @@
 		@include media('max', 'xl') {
 			width: calc(100% / 2);
 			&:nth-child(even) {
-				margin-top: 0;
+				margin-top: 15px;
 			}
 
 			&:nth-child(3) {

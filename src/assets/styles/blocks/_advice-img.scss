@@ -12,6 +12,7 @@
 		font-size: 20px;
 		line-height: 24px;
 		text-transform: uppercase;
+		font-weight: 400;
 
 		@include media('max', 'lg') {
 			width: 100%;
@@ -155,5 +156,9 @@
 		font-size: 12px;
 		line-height: 14px;
 		color: $color-red !important;
+
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 }

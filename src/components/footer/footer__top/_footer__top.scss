@@ -1,43 +1,60 @@
 .footer__top {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
 
-	@include media('max', 'sm') {
-		flex-wrap: wrap;
-	}
+  @include media("max", "sm") {
+    flex-wrap: wrap;
+  }
 
-	.logo {
-		&__wrap {
-			width: 63px;
-			height: 63px;
-			margin-right: auto;
+  .logo {
+    &__wrap {
+      width: 63px;
+      height: 63px;
+      margin-right: auto;
 
-			@include media('max', 'md') {
-				width: 37px;
-				height: 37px;
-			}
-		}
-	}
+      @include media("max", "md") {
+        width: 37px;
+        height: 37px;
+      }
+    }
+  }
 
-	.phones {
-		@include media('max', 'md') {
-			padding-left: 22px;
-		}
-		@include media('max', 'sm') {
-			margin-right: 0;
-		}
-	}
+  .phones {
+    font-size: 18px;
+    // line-height: 23px;
 
-	.callback {
-		&__btn {
-			padding: 11px 16px;
-		}
-		@include media('max', 'sm') {
-			flex-basis: auto;
-			margin: 0 auto;
-			margin-top: 13px;
-		}
-	}
+    @include media("max", "md") {
+      padding-left: 22px;
+
+      font-size: 14px;
+    }
+    @include media("max", "sm") {
+      margin-right: 0;
+    }
+
+    &:before {
+      width: 13px;
+      height: 22px;
+
+      background-image: url(../images/ico/ico-phone-header-light.svg);
+
+      @include media("max", "md") {
+        width: 11px;
+        height: 18px;
+      }
+    }
+  }
+
+  .callback {
+    @include media("max", "sm") {
+      flex-basis: auto;
+      margin: 0 auto;
+      margin-top: 13px;
+    }
+    &__btn {
+      padding: 11px 16px;
+    }
+  }
 }

@@ -113,6 +113,10 @@
 
     font-size: 12px;
     line-height: 14px;
-    color: $color-red !important;
+		color: $color-red !important;
+
+		&:hover {
+			text-decoration: underline;
+		}
   }
 }

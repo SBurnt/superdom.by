@@ -90,6 +90,10 @@
 
     p a {
       color: $color-red;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
     ol {

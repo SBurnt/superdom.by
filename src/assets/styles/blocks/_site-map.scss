@@ -1,4 +1,7 @@
 .site-map {
+	.section__inner {
+		padding-top: 0;
+	}
 	&__item {
 		&:nth-child(n + 2) {
 			margin-top: 15px;

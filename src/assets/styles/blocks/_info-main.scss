@@ -4,9 +4,11 @@
   .section__inner {
     display: flex;
     justify-content: space-between;
+    padding: 45px 0 55px;
 
     @include media("max", "lg") {
       flex-direction: column;
+      padding: 35px 0 45px;
     }
   }
 
@@ -70,18 +72,6 @@
       &:hover {
         font-weight: 700;
         text-decoration: none;
-      }
-    }
-  }
-
-  .advices {
-    .section__title {
-      text-align: left;
-
-      &::before {
-        left: 0;
-
-        transform: translateX(0);
       }
     }
   }
@@ -165,6 +155,16 @@
     max-width: 690px;
     // margin-right: 200px;
 
+    .section__title {
+      text-align: left;
+
+      &::before {
+        left: 0;
+
+        transform: translateX(0);
+      }
+    }
+
     &__list {
       display: flex;
       flex-wrap: wrap;
@@ -194,7 +194,6 @@
       &:hover {
         cursor: pointer;
         .advices__link {
-          font-weight: 600;
           text-decoration: none;
         }
       }

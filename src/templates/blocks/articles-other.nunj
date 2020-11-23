@@ -5,30 +5,42 @@
 			<ul class="articles-other__list">
 				<li class="articles-other__item">
 					<div class="articles-other__img-wrap">
-						<img class="articles-other__img lazyload" loading="lazy" data-src="assets/images/advice/advice-02.png" alt="фото совета">
+						<a href="">
+							<img class="articles-other__img lazyload" loading="lazy" data-src="assets/images/advice/advice-02.png" alt="фото совета">
+						</a>
 					</div>
 					<div class="articles-other__text-wrap">
-						<h3 class="articles-other__title">Как выполняется кладка?</h3>
+						<a href="">
+							<h3 class="articles-other__title">Как выполняется кладка?</h3>
+						</a>
 						<p class="articles-other__text">Технология кладочных работ подробно описана в другой нашей статье, а в этом материале мы...</p>
 						<a href="" class="articles-other__link">Читать далее</a>
 					</div>
 				</li>
 				<li class="articles-other__item">
 					<div class="articles-other__img-wrap">
-						<img class="articles-other__img lazyload" loading="lazy" data-src="assets/images/advice/advice-03.png" alt="фото совета">
+						<a href="">
+							<img class="articles-other__img lazyload" loading="lazy" data-src="assets/images/advice/advice-03.png" alt="фото совета">
+						</a>
 					</div>
 					<div class="articles-other__text-wrap">
-						<h3 class="articles-other__title">Толщина кладки</h3>
+						<a href="">
+							<h3 class="articles-other__title">Толщина кладки</h3>
+						</a>
 						<p class="articles-other__text">Выбирая подходящие для будущего строения виды кирпичной кладки стен, рекомендуется...</p>
 						<a href="" class="articles-other__link">Читать далее</a>
 					</div>
 				</li>
 				<li class="articles-other__item">
 					<div class="articles-other__img-wrap">
-						<img class="articles-other__img lazyload" loading="lazy" data-src="assets/images/advice/advice-04.png" alt="фото совета">
+						<a href="">
+							<img class="articles-other__img lazyload" loading="lazy" data-src="assets/images/advice/advice-04.png" alt="фото совета">
+						</a>
 					</div>
 					<div class="articles-other__text-wrap">
-						<h3 class="articles-other__title">Виды кладки кирпича</h3>
+						<a href="">
+							<h3 class="articles-other__title">Виды кладки кирпича</h3>
+						</a>
 						<p class="articles-other__text">При строительстве зданий и сооружений применяются различные виды кладки кирпича.</p>
 						<a href="" class="articles-other__link">Читать далее</a>
 					</div>

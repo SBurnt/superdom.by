@@ -79,6 +79,7 @@
       font-weight: 300;
       font-size: 14px;
       line-height: 19px;
+      text-decoration: underline;
 
       @include media("max", "md") {
         font-size: 13px;
@@ -87,11 +88,11 @@
 
     &:hover {
       .figure__img {
-        transform: scale(1.8);
+        transform: scale(1.2);
       }
 
       .figure__text {
-        text-decoration: underline;
+        text-decoration: none;
       }
     }
   }
@@ -135,13 +136,14 @@
 
       font-size: 14px;
       line-height: 20px;
+      text-decoration: underline;
 
       @include media("max", "md") {
         font-size: 13px;
       }
 
       &:hover {
-        text-decoration: underline;
+        text-decoration: none;
       }
     }
   }
