@@ -1,30 +1,96 @@
 .phones {
-	position: relative;
+  position: relative;
 
-	margin-right: 30px;
-	padding-left: 26px;
+  margin-right: 30px;
+  padding: 5px 13px 5px 26px;
 
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 18px;
-	font-family: $pt-sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: $pt-sans;
 
-	&::before {
-		content: '';
-		position: absolute;
-		left: 0;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
 
-		width: 12px;
-		height: 18px;
+    width: 12px;
+    height: 18px;
 
-		background-image: url(../images/ico/ico-phone-header.svg);
-		background-repeat: no-repeat;
-		background-size: contain;
-	}
+    background-image: url(../images/ico/ico-phone-header.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 
-	&__main-link {
-		span {
-			color: #a5a5a5;
-		}
-	}
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    width: 0;
+    height: 0;
+
+    border-width: 4px;
+    border-style: solid;
+    border-color: #cecece transparent transparent;
+
+    pointer-events: none;
+  }
+
+  &__main-link {
+    span {
+      color: #a5a5a5;
+    }
+  }
+  &:hover {
+    &::after {
+      margin-top: -6px;
+      // border-color: transparent transparent #cecece;
+
+      transform: rotate(180deg);
+    }
+    .phones__dropdown-list {
+      display: block;
+    }
+  }
+  &__dropdown-list {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    z-index: 100;
+
+    display: none;
+    // padding: 12px 13px 11px 15px;
+
+    white-space: nowrap;
+
+    background-color: #3b3838;
+    border-radius: 0 0 3px 3px;
+  }
+
+  &__dropdown-item {
+    padding: 0 17px;
+
+    &:hover {
+      background-color: #211f1f;
+    }
+
+    &:last-child {
+      .phones__dropdown-link {
+        border: none;
+      }
+    }
+  }
+
+  &__dropdown-link {
+    display: inline-block;
+    padding: 12px 0;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+
+    border-bottom: 1px solid #494949;
+  }
 }

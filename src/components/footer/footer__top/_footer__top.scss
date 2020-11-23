@@ -23,7 +23,13 @@
 
   .phones {
     font-size: 18px;
-    // line-height: 23px;
+		// line-height: 23px;
+
+		&:hover {
+			.phones__dropdown-list {
+				display: none;
+			}
+		}
 
     @include media("max", "md") {
       padding-left: 22px;
@@ -44,7 +50,11 @@
         width: 11px;
         height: 18px;
       }
-    }
+		}
+
+		&::after {
+			content: none;
+		}
   }
 
   .callback {
