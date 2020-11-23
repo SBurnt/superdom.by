@@ -11,6 +11,7 @@
 		third_title: 'Каталог'
 	}) }}
 	<main class="main catalog-page">
+		<div class="catalog-page-bg"></div>
 		<section class="title__page">
 			<div class="container">
 				<div class="section__inner">
