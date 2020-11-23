@@ -125,6 +125,8 @@
       display: inline-block;
       height: 100%;
 
+      cursor: pointer;
+
       &::after {
         content: "";
         position: absolute;

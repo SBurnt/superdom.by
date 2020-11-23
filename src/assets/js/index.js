@@ -11,6 +11,7 @@ import './customInputRange';
 import './customSelect';
 import './map';
 import './modal-gallery';
+import './modal-certificates';
 
 if (module.hot) {
 	module.hot.accept();
