@@ -1,17 +1,41 @@
 .catalog-main {
-	background-image: url(../images/main/catalog-main/bg-catalog-main.png);
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: auto 90%;
+  background-image: url(../images/main/catalog-main/bg-catalog-main.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: auto 90%;
 
-	@include media('max', 'xl') {
-		background-position-x: -80px;
-	}
-	@include media('max', 'lg') {
-		background-position: top center;
-		background-size: auto 60%;
-	}
-	@include media('max', 'md') {
-		background-size: auto 35%;
-	}
+  @include media("max", "xl") {
+    background-position-x: -80px;
+  }
+  @include media("max", "lg") {
+    background-position: top center;
+    background-size: auto 60%;
+  }
+  @include media("max", "md") {
+    background-size: auto 35%;
+  }
+
+  .catalog {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 100%;
+
+      width: 100%;
+      width: calc((100vw - 1185px) / 2);
+
+      background-color: $bg-dark1;
+
+      @include media("max", "xl") {
+        width: calc((100vw - 945px) / 2);
+      }
+      @include media("max", "lg") {
+        content: none;
+      }
+    }
+  }
 }
