@@ -63,6 +63,10 @@
       transform: translateY(-50%);
     }
 
+    &.phones::after {
+      content: none;
+    }
+
     &.email {
       position: relative;
 
