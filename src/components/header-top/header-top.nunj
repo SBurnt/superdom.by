@@ -1,4 +1,5 @@
 <div class="header__top">
+	<h1 class="invisible-container">Супер Дом</h1>
 	{% include '../../components/logo/logo.nunj' %}
 	{% include '../../components/address/address.nunj' %}
 	{% include '../../components/social/social.nunj' %}
