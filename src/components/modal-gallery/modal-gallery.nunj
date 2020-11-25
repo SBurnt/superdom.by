@@ -7,7 +7,7 @@
 	</button>
 	<div class="modal-gallery__content">
 		<div class="modal-gallery__img-wrap">
-			<img class="modal-gallery__img" src="" alt="brick">
+			<img class="modal-gallery__img" src="assets/images/gallery/gallery-01.png" loading="lazy" alt="brick">
 		</div>
 		<div class="modal-gallery__text">
 			<h3 class="modal-gallery__title">ЕМКА – стильная женская одежда</h3>

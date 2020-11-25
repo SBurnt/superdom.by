@@ -2,10 +2,11 @@
 <html  lang="ru">
 	<head>
 		<meta charset="UTF-8"/>
+		{# <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/> #}
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>
 			{% block title %}superdom{% endblock %}
 		</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 		<meta name="author" content="SBurnt, Siarhei Pashkevich"/>
 		{% block stylesheets %}
 			<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,7 +24,7 @@
 			{% include '../blocks/modals.nunj' %}
 		</div>
 		{% block scripts %}
-			<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+			<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 			<script src="assets/js/bundle.js?hash"></script>
 		{% endblock scripts %}
 	</body>

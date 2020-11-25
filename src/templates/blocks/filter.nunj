@@ -1,16 +1,16 @@
 <div class="filter">
 	<div class="container">
-		<form class="filter__form" action="">
-			<legend class="filter__header">Фильтр по параметрам</legend>
+		<form class="filter__form" action="index.php">
+			<div class="filter__header">Фильтр по параметрам</div>
 			<div class="filter__wrap">
 				<div class="filter__section">
 					<div class="filter__title">Цена</div>
 					<div class="filter__data">
 						<label class="filter__label">
-							<input class="filter__input" type="text" id="filter__input" name="min-range" value="1100">
+							<input class="filter__input" type="text" id="filter__input-min" name="min-range" value="1100">
 						</label>
 						<label>
-							<input class="filter__input" type="text" id="filter__input" name="max-range" value="2500">
+							<input class="filter__input" type="text" id="filter__input-max" name="max-range" value="2500">
 						</label class="filter__label">
 					</div>
 					<div class="filter__range">

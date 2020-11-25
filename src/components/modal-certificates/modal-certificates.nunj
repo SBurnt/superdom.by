@@ -7,7 +7,7 @@
 	</button>
 	<div class="modal-certificates__content">
 		<div class="modal-certificates__img-wrap">
-			<img class="modal-certificates__img" src="" alt="сертификат">
+			<img class="modal-certificates__img" src="assets/images/certificates/certificate-01.png" loading="lazy" alt="сертификат">
 		</div>
 	</div>
 </div>

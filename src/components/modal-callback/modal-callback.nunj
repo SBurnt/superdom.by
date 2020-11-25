@@ -6,8 +6,8 @@
 		</svg>
 	</button>
 	<div class="modal-callback__content">
-		<form class="modal-callback__form" id="" action="">
-			<legend class="modal-callback__title">заказать звонок</legend>
+		<form class="modal-callback__form" action="index.php">
+			<span class="modal-callback__title">заказать звонок</span>
 			<div class="modal-callback__input-wrap">
 				<input class="modal-callback__input" type="text" name="name" placeholder="Имя">
 				<img class="modal-callback__input-img" src="assets/images/ico/ico-name.svg" alt="">

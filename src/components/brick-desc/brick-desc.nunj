@@ -20,7 +20,7 @@
 					</div>
 				{% endif %}
 				{# <a class="btn brick-desc__btn-detail" href="/detail.html"  data-path="modal-work-exx" data-animation="fadeInUp" data-speed="300">Подробнее</a> #}
-				<button class="btn brick-desc__btn-detail" href="/detail.html"  data-path="modal-work-exx" data-animation="fadeInUp" data-speed="300">Подробнее</button>
+				<button class="btn brick-desc__btn-detail" data-path="modal-work-exx" data-animation="fadeInUp" data-speed="300">Подробнее</button>
 			</div>
 		</div>
 	</div>

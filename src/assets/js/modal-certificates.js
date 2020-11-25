@@ -5,7 +5,6 @@ const modalCertificates = function() {
 	console.log(certificatesItem);
 	function setModalInfo(e) {
 		const parent = this.closest('.certificates__item');
-		console.log(parent);
 		const childImg = parent.querySelector('.certificates__img').src;
 
 		modalImg.src = childImg;
