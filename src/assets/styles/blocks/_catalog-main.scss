@@ -1,22 +1,29 @@
 .catalog-main {
-  background-image: url(../images/main/catalog-main/bg-catalog-main.png);
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: auto 90%;
+  .section__inner {
+    background-image: url(../images/main/catalog-main/bg-catalog-main.png);
+    background-repeat: no-repeat;
+    background-position: -60px center;
+    background-size: auto 80%;
 
-  @include media("max", "xl") {
-    background-position-x: -80px;
-  }
-  @include media("max", "lg") {
-    background-position: top center;
-    background-size: auto 60%;
-  }
-  @include media("max", "md") {
-    background-size: auto 35%;
+    @include media("max", "lg") {
+      background-position: top center;
+      background-size: auto 60%;
+    }
+    @include media("max", "md") {
+      background-size: auto 35%;
+    }
   }
 
   .catalog {
     position: relative;
+
+    width: 71%;
+    padding-right: 0;
+
+    @include media("max", "lg") {
+      width: 100%;
+      padding-right: 20px;
+    }
 
     &::before {
       content: "";
