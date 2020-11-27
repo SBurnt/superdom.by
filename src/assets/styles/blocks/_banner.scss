@@ -1,20 +1,14 @@
 .banner {
   background-color: #010101;
 
-  .container {
-    background-image: url(../images/main/bg-banner-container.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    @include media("max", "md") {
-      background-position-x: -120px;
-    }
+  @include media("max", "md") {
+    background-position-x: -120px;
   }
 
   &__wrap {
-    // width: 56vw;
+    position: relative;
+
     width: 66%;
-    // min-height: 690px;
     margin-left: auto;
     padding-left: 120px;
 
@@ -28,6 +22,31 @@
     }
     @include media("max", "md") {
       width: 85%;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 100%;
+      bottom: 0;
+
+      width: 504px;
+      height: 100%;
+
+      background-image: url(../images/main/bg-banner-2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      @include media("max", "xl") {
+        background-position-x: -19px;
+      }
+      @include media("max", "lg") {
+        width: 255px;
+      }
+      @include media("max", "sm") {
+        background-position-x: 35px;
+      }
     }
   }
 
@@ -139,6 +158,7 @@
   &__contacts {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 102px;
 
     color: $color-gray-dark;
