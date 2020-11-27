@@ -2,7 +2,7 @@
   .section__inner {
     background-image: url(../images/main/catalog-main/bg-catalog-main.png);
     background-repeat: no-repeat;
-    background-position: -60px center;
+    background-position: -40px center;
     background-size: auto 80%;
 
     @include media("max", "lg") {
