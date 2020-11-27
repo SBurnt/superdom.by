@@ -112,11 +112,14 @@
   }
 
   &__brand-img {
+    width: 100px;
+    height: 100px;
+    margin-top: -15px;
     margin-bottom: 35px;
 
     @include media("max", "lg") {
-      width: 20px;
-      height: 20px;
+      width: 40px;
+      height: 40px;
       margin-top: -20px;
       margin-bottom: 30px;
     }
