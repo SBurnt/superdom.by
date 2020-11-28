@@ -7,10 +7,10 @@
 					<div class="filter__title">Цена</div>
 					<div class="filter__data">
 						<label class="filter__label">
-							<input class="filter__input" type="text" id="filter__input-min" name="min-range" value="1100">
+							<input class="filter__input" type="text" id="filter__input-min" name="min-range" value="1252" data-min-val="1100">
 						</label>
 						<label>
-							<input class="filter__input" type="text" id="filter__input-max" name="max-range" value="2500">
+							<input class="filter__input" type="text" id="filter__input-max" name="max-range" value="1965" data-max-val="2500">
 						</label class="filter__label">
 					</div>
 					<div class="filter__range">
