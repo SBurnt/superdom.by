@@ -4,23 +4,33 @@
 			<h2 class="section__title">кирпич realbrick</h2>
 			<ul class="advantages__list">
 				<li class="advantages__item">
-					<img class="advantages__img lazyload" data-src="assets/images/main/advantages/advantages-01.png" loading="lazy" alt="Высокая жаростойкость">
-					<span class="advantages__text">высокая жаростойкость</span>
+					<div class="advantages__img-wrap">
+						<img class="advantages__img lazyload" data-src="assets/images/main/advantages/advantages-01.png" loading="lazy" alt="Высокая жаростойкость">
+					</div>
+					<span class="advantages__text">высокая морозостойкость</span>
 				</li>
 				<li class="advantages__item">
-					<span class="advantages__text">водопоглощение менее 4%</span>
-					<img class="advantages__img lazyload" data-src="assets/images/main/advantages/advantages-02.png" loading="lazy" alt="водопоглощение менее 4%">
+					<span class="advantages__text">низкое водопоглощение</span>
+					<div class="advantages__img-wrap">
+						<img class="advantages__img lazyload" data-src="assets/images/main/advantages/advantages-02.png" loading="lazy" alt="водопоглощение менее 4%">
+					</div>
 				</li>
 				<li class="advantages__item">
-					<img class="advantages__img lazyload" data-src="assets/images/main/advantages/advantages-03.png" loading="lazy" alt="Использование различных эффектов дизайна">
-					<span class="advantages__text">Использование различных эффектов дизайна</span>
+					<div class="advantages__img-wrap">
+						<img class="advantages__img lazyload" data-src="assets/images/main/advantages/advantages-03.png" loading="lazy" alt="Использование различных эффектов дизайна">
+					</div>
+					<span class="advantages__text">только натуральные компоненты</span>
 				</li>
 				<li class="advantages__item">
-					<span class="advantages__text">Глина, кристально чистый песок</span>
-					<img class="advantages__img lazyload" data-src="assets/images/main/advantages/advantages-04.png" loading="lazy" alt="Глина, кристально чистый песок">
+					<span class="advantages__text">достоверные античные фактуры</span>
+					<div class="advantages__img-wrap">
+						<img class="advantages__img lazyload" data-src="assets/images/main/advantages/advantages-04.png" loading="lazy" alt="Глина, кристально чистый песок">
+					</div>
 				</li>
 				<li class="advantages__item">
-					<img class="advantages__img lazyload" data-src="assets/images/main/advantages/advantages-05.png" loading="lazy" alt="Экологичная продукция">
+					<div class="advantages__img-wrap">
+						<img class="advantages__img lazyload" data-src="assets/images/main/advantages/advantages-05.png" loading="lazy" alt="Экологичная продукция">
+					</div>
 					<span class="advantages__text">Экологичная продукция</span>
 				</li>
 			</ul>
