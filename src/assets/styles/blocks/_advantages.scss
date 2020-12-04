@@ -26,9 +26,6 @@
 
     @include media("max", "xl") {
       width: calc(100% / 2);
-      &:nth-child(even) {
-        margin-top: 15px;
-      }
 
       &:nth-child(3) {
         width: 100%;
@@ -39,8 +36,13 @@
       }
     }
 
+
     &:nth-child(even) {
       margin-top: 166px;
+
+      @include media("max", "xl") {
+        margin-top: 15px;
+      }
 
       &::before {
         top: 40px;
