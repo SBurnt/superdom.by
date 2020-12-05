@@ -7,10 +7,10 @@
 					<div class="advantages__img-wrap">
 						<img class="advantages__img lazyload" data-src="assets/images/main/advantages/advantages-01.png" loading="lazy" alt="Высокая жаростойкость">
 					</div>
-					<span class="advantages__text">высокая морозостойкость</span>
+					<span class="advantages__text">высокая<br> морозостойкость</span>
 				</li>
 				<li class="advantages__item">
-					<span class="advantages__text">низкое водопоглощение</span>
+					<span class="advantages__text">низкое<br> водопоглощение</span>
 					<div class="advantages__img-wrap">
 						<img class="advantages__img lazyload" data-src="assets/images/main/advantages/advantages-02.png" loading="lazy" alt="водопоглощение менее 4%">
 					</div>
@@ -19,10 +19,10 @@
 					<div class="advantages__img-wrap">
 						<img class="advantages__img lazyload" data-src="assets/images/main/advantages/advantages-03.png" loading="lazy" alt="Использование различных эффектов дизайна">
 					</div>
-					<span class="advantages__text">только натуральные компоненты</span>
+					<span class="advantages__text">только натуральные<br> компоненты</span>
 				</li>
 				<li class="advantages__item">
-					<span class="advantages__text">достоверные античные фактуры</span>
+					<span class="advantages__text">достоверные<br> античные<br> фактуры</span>
 					<div class="advantages__img-wrap">
 						<img class="advantages__img lazyload" data-src="assets/images/main/advantages/advantages-04.png" loading="lazy" alt="Глина, кристально чистый песок">
 					</div>
@@ -31,7 +31,7 @@
 					<div class="advantages__img-wrap">
 						<img class="advantages__img lazyload" data-src="assets/images/main/advantages/advantages-05.png" loading="lazy" alt="Экологичная продукция">
 					</div>
-					<span class="advantages__text">Экологичная продукция</span>
+					<span class="advantages__text">Экологичная<br> продукция</span>
 				</li>
 			</ul>
 		</div>

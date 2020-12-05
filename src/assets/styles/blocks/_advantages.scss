@@ -41,7 +41,7 @@
       margin-top: 166px;
 
       @include media("max", "xl") {
-        margin-top: 15px;
+        margin-top: 25px;
       }
 
       &::before {
@@ -61,6 +61,18 @@
         @include media("max", "md") {
           margin-top: -20px;
         }
+      }
+    }
+
+    &:nth-child(1) {
+      .advantages__img-wrap {
+        margin-bottom: 14px;
+      }
+    }
+
+    &:nth-child(5) {
+      .advantages__text {
+        margin-top: -10px;
       }
     }
 
@@ -100,7 +112,7 @@
   }
 
   &__text {
-    width: 170px;
+    // width: 170px;
     margin-bottom: 18px;
 
     font-size: 18px;
