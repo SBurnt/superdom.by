@@ -21,7 +21,12 @@
       padding-left: 30px;
     }
     @include media("max", "md") {
-      width: 85%;
+      width: 62%;
+      padding-left: 15px;
+    }
+
+    @media only screen and (max-width: 360.98px) {
+      width: 74%;
     }
 
     &::before {
@@ -72,6 +77,9 @@
           width: 60px;
         }
       }
+      @include media("max", "sm") {
+        font-size: 18px;
+      }
 
       &::before {
         left: 0;
@@ -119,9 +127,9 @@
     margin-bottom: 35px;
 
     @include media("max", "lg") {
-      width: 40px;
-      height: 40px;
-      margin-top: -20px;
+      width: 60px;
+      height: 60px;
+      margin-top: -30px;
       margin-bottom: 30px;
     }
   }

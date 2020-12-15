@@ -1,155 +1,187 @@
 .brick-desc {
-	display: flex;
-	min-height: 190px;
+  display: flex;
+  min-height: 190px;
 
-	@include media('max', 'md') {
-		min-height: auto;
-	}
+  @include media("max", "md") {
+    min-height: auto;
+  }
 
-	&__content {
-		display: flex;
-		padding: 15px;
+  &__content {
+    position: relative;
+    z-index: 0;
 
-		background-color: $bg-dark1;
+    display: flex;
+    padding: 15px;
 
-		@include media('max', 'md') {
-			padding: 10px;
-		}
-	}
+    background-color: $bg-dark1;
 
-	&__img {
-		// width: 100%;
-		// max-width: 270px;
-		width: 50%;
+    @include media("max", "md") {
+      padding: 10px;
+    }
 
-		@include media('max', 'xl') {
-			width: 40%;
-		}
-		@include media('max', 'lg') {
-			width: 50%;
-		}
-		@include media('max', 'md') {
-			width: 20%;
-		}
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 15px;
+      z-index: -1;
 
-		object-fit: cover;
-	}
+      width: 100%;
+      height: 100%;
 
-	&__text {
-		margin-right: 5px;
-	}
+      background-color: rgba(0, 0, 0, 0.5);
+    }
 
-	&__title {
-		margin-bottom: 8px;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 5px;
+      z-index: -1;
 
-		font-weight: 700;
-		font-size: 13px;
-		line-height: 16px;
+      width: 100%;
+      height: 100%;
 
-		@include media('max', 'md') {
-			margin-bottom: 18px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
 
-			font-size: 10px;
-			line-height: 12px;
-		}
-	}
+  &__img {
+    // width: 100%;
+    // max-width: 270px;
+    width: 50%;
 
-	&__disсription {
-		font-size: 12px;
-		line-height: 14px;
+    object-fit: cover;
 
-		@include media('max', 'md') {
-			font-size: 9px;
-			line-height: 11px;
-		}
-	}
+    @include media("max", "xl") {
+      width: 40%;
+    }
+    @include media("max", "lg") {
+      width: 50%;
+    }
+    @include media("max", "md") {
+      width: 35%;
+    }
+    @media only screen and (max-width: 360.98px) {
+      width: 30%;
+    }
+  }
 
-	&__characteristic {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
-		align-items: center;
-	}
+  &__text {
+    margin-right: 5px;
+  }
 
-	&__btn-detail {
-		padding: 6px 13px;
+  &__title {
+    margin-bottom: 8px;
 
-		font-size: 12px;
-		line-height: 16px;
-		font-family: $pt-sans;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
 
-		border: 1px solid $color-gray-dark;
-		border-radius: 5px;
+    @include media("max", "md") {
+      margin-bottom: 18px;
 
-		&:hover {
-			background-color: $color-red;
-		}
+      font-size: 10px;
+      line-height: 12px;
+    }
+  }
 
-		@include media('max', 'md') {
-			font-size: 8px;
-			line-height: 10px;
-		}
-	}
+  &__disсription {
+    font-size: 12px;
+    line-height: 14px;
 
-	.chart {
-		&__pie {
-			position: relative;
+    @include media("max", "md") {
+      font-size: 9px;
+      line-height: 11px;
+    }
+  }
 
-			width: 68px;
-			height: 68px;
-			margin: 0 auto;
+  &__characteristic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-			@include media('max', 'md') {
-				width: 55px;
-				height: 55px;
-			}
-		}
+  &__btn-detail {
+    padding: 6px 13px;
 
-		&__circle-bg {
-			fill: none;
-			stroke: $bg-body;
-			stroke-width: 2;
-		}
+    font-size: 12px;
+    line-height: 16px;
+    font-family: $pt-sans;
 
-		&__circle {
-			transform: rotate(0deg);
-			transform-origin: 50% 50%;
+    border: 1px solid $color-gray-dark;
+    border-radius: 5px;
 
-			fill: none;
-			stroke: $color-red;
-			// stroke-linecap: round; //закругление
-			stroke-width: 2;
-		}
+    @include media("max", "md") {
+      font-size: 8px;
+      line-height: 10px;
+    }
 
-		&__percent {
-			position: absolute;
-			top: 50%;
-			left: 50%;
+    &:hover {
+      background-color: $color-red;
+    }
+  }
 
-			font-size: 13px;
+  .chart {
+    &__pie {
+      position: relative;
 
-			transform: translate(-50%, -50%);
+      width: 68px;
+      height: 68px;
+      margin: 0 auto;
 
-			@include media('max', 'md') {
-				font-size: 10px;
-			}
-		}
+      @include media("max", "md") {
+        width: 55px;
+        height: 55px;
+      }
+    }
 
-		&__name {
-			display: block;
-			margin: 10px 0 15px;
+    &__circle-bg {
+      fill: none;
+      stroke: $bg-body;
+      stroke-width: 2;
+    }
 
-			font-weight: 500;
-			font-size: 8px;
-			line-height: 10px;
-			text-align: center;
-			text-transform: uppercase;
-			letter-spacing: 0.045em;
+    &__circle {
+      transform: rotate(0deg);
+      transform-origin: 50% 50%;
 
-			@include media('max', 'md') {
-				font-size: 5px;
-				line-height: 6px;
-			}
-		}
-	}
+      fill: none;
+      stroke: $color-red;
+      // stroke-linecap: round; //закругление
+      stroke-width: 2;
+    }
+
+    &__percent {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+      font-size: 13px;
+
+      transform: translate(-50%, -50%);
+
+      @include media("max", "md") {
+        font-size: 10px;
+      }
+    }
+
+    &__name {
+      display: block;
+      margin: 10px 0 15px;
+
+      font-weight: 500;
+      font-size: 8px;
+      line-height: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+
+      @include media("max", "md") {
+        font-size: 5px;
+        line-height: 6px;
+      }
+    }
+  }
 }

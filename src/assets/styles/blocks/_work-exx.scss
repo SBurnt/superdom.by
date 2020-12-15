@@ -1,195 +1,203 @@
 .work-exx {
-	&__list {
-		display: flex;
-		flex-wrap: wrap;
-		margin-right: -25px;
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -25px;
 
-		@include media('max', 'lg') {
-			margin-right: 0;
-		}
-	}
+    @include media("max", "lg") {
+      margin-right: 0;
+    }
+  }
 
-	&__item {
-		width: calc(100% / 3 - 25px);
-		margin-right: 25px;
-		margin-bottom: 25px;
+  &__item {
+    width: calc(100% / 3 - 25px);
+    margin-right: 25px;
+    margin-bottom: 25px;
 
-		@include media('max', 'lg') {
-			width: 100%;
-			margin-right: 0;
-			margin-bottom: 15px;
-		}
+    @include media("max", "lg") {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
 
-		&:nth-child(n + 4) {
-			width: calc(100% / 4 - 25px);
+    &:nth-child(n + 4) {
+      width: calc(100% / 4 - 25px);
 
-			@include media('max', 'lg') {
-				display: none;
-			}
+      @include media("max", "lg") {
+        display: none;
+      }
 
-			.brick-desc {
-				&__content {
-					flex-direction: column;
-				}
+      .brick-desc {
+        &__content {
+          flex-direction: column;
+        }
 
-				&__img {
-					height: 162px;
-				}
+        &__img {
+          height: 162px;
+        }
 
-				&__text {
-					flex-grow: 1;
-				}
+        &__text {
+          flex-grow: 1;
+        }
 
-				&__btn-detail {
-					margin-top: 20px;
-					margin-left: auto;
-				}
-			}
-		}
+        &__btn-detail {
+          margin-top: 20px;
+          margin-left: auto;
+        }
+      }
+    }
 
-		&:hover {
-			.brick-desc__content {
-				background-color: $bg-gray3;
-			}
-		}
-	}
+    &:hover {
+      .brick-desc__content {
+        background-color: $bg-gray3;
+      }
+    }
+  }
 
-	&__btn-more {
-		text-align: center;
+  &__btn-more {
+    text-align: center;
 
-		background-color: $bg-dark1;
-	}
+    background-color: $bg-dark1;
+  }
 
-	&__link {
-		position: relative;
+  &__link {
+    position: relative;
 
-		display: inline-block;
-		padding: 20px 30px;
+    display: inline-block;
+    padding: 20px 30px;
 
-		font-weight: 300;
-		font-size: 16px;
-		line-height: 19px;
-		text-transform: uppercase;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
 
-		@include media('max', 'md') {
-			padding: 20px 25px;
+    @include media("max", "md") {
+      padding: 20px 25px;
 
-			font-size: 12px;
-			line-height: 14px;
-		}
+      font-size: 12px;
+      line-height: 14px;
+    }
 
-		&::after {
-			content: '';
-			position: absolute;
-			top: 50%;
-			right: 0;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 0;
 
-			width: 8px;
-			height: 8px;
+      width: 8px;
+      height: 8px;
 
-			border-right: 2px solid $color-primary;
-			border-bottom: 2px solid $color-primary;
-			transform: translateY(-50%) rotate(-45deg);
+      border-right: 2px solid $color-primary;
+      border-bottom: 2px solid $color-primary;
+      transform: translateY(-50%) rotate(-45deg);
 
-			transition: right 0.3s ease;
-		}
+      transition: right 0.3s ease;
+    }
 
-		&:hover {
-			text-decoration: underline;
-			&::after {
-				right: -30px;
-			}
-		}
-	}
+    &:hover {
+      text-decoration: underline;
+      &::after {
+        right: -30px;
+      }
+    }
+  }
 
-	.brick-desc {
-		flex-direction: column;
-		height: 100%;
-		min-height: initial;
+  .brick-desc {
+    flex-direction: column;
+    height: 100%;
+    min-height: initial;
 
-		&__img {
-			width: 100%;
-			height: 187px;
+    &__img {
+      width: 100%;
+      height: 187px;
 
-			@include media('max', 'lg') {
-				height: 122px;
-			}
-		}
+      @include media("max", "lg") {
+        height: 122px;
+      }
+    }
 
-		&__content {
-			flex-grow: 1;
-			padding: 26px 17px;
+    &__content {
+      flex-grow: 1;
+      padding: 26px 17px;
 
-			background-color: $bg-gray2;
+      background-color: $bg-gray2;
 
-			@include media('max', 'lg') {
-				padding: 20px 17px;
-			}
-		}
+      @include media("max", "lg") {
+        padding: 20px 17px;
+      }
 
-		&__text {
-			margin-right: 15px;
-		}
+      &::before {
+        content: none;
+      }
 
-		&__title {
-			font-size: 16px;
-			line-height: 19px;
+      &::after {
+        content: none;
+      }
+    }
 
-			@include media('max', 'md') {
-				font-size: 14px;
-				line-height: 17px;
-			}
-		}
+    &__text {
+      margin-right: 15px;
+    }
 
-		&__disсription {
-			font-size: 13px;
-			line-height: 16px;
+    &__title {
+      font-size: 16px;
+      line-height: 19px;
 
-			@include media('max', 'md') {
-				font-size: 12px;
-				line-height: 14px;
-			}
+      @include media("max", "md") {
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
 
-			span {
-				color: $color-red-dark;
-			}
-		}
+    &__disсription {
+      font-size: 13px;
+      line-height: 16px;
 
-		.chart {
-			&__pie {
-				width: 60px;
-				height: 60px;
+      @include media("max", "md") {
+        font-size: 12px;
+        line-height: 14px;
+      }
 
-				@include media('max', 'md') {
-					width: 46px;
-					height: 46px;
-				}
-			}
+      span {
+        color: $color-red-dark;
+      }
+    }
 
-			&__circle-bg {
-				stroke: $bg-dark1;
-			}
+    .chart {
+      &__pie {
+        width: 60px;
+        height: 60px;
 
-			&__name {
-				@include media('max', 'lg') {
-					font-size: 8px;
-					line-height: 10px;
-				}
-			}
-		}
+        @include media("max", "md") {
+          width: 46px;
+          height: 46px;
+        }
+      }
 
-		&__btn-detail {
-			padding: 11px 25px;
+      &__circle-bg {
+        stroke: $bg-dark1;
+      }
 
-			font-size: 13px;
-			line-height: 17px;
+      &__name {
+        @include media("max", "lg") {
+          font-size: 8px;
+          line-height: 10px;
+        }
+      }
+    }
 
-			background-color: $bg-dark1;
-			border: none;
+    &__btn-detail {
+      padding: 11px 25px;
 
-			&:hover {
-				background-color: $color-red;
-			}
-		}
-	}
+      font-size: 13px;
+      line-height: 17px;
+
+      background-color: $bg-dark1;
+      border: none;
+
+      &:hover {
+        background-color: $color-red;
+      }
+    }
+  }
 }
