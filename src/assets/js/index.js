@@ -12,6 +12,7 @@ import './customSelect';
 import './map';
 import './modal-gallery';
 import './modal-certificates';
+import './fslightbox';
 
 if (module.hot) {
 	module.hot.accept();
