@@ -21,22 +21,22 @@
 								<li class="charact__item">
 									<span class="charact__title">Цены:</span>
 									<div class="charact__description-wrap">
-										<span class="charact__description">плитка: 87.4 руб/м2</span>
-										<span class="charact__description">угол: 87.4 руб/мп</span>
+										<span class="charact__description">плитка: <span>87.4</span> руб/м2</span>
+										<span class="charact__description">угол: <span>87.4</span> руб/мп</span>
 									</div>
 								</li>
 								<li class="charact__item">
 									<span class="charact__title">Размеры:</span>
 									<div class="charact__description-wrap">
-										<span class="charact__description">плитка: 240 х 60 х 15</span>
-										<span class="charact__description">угол: 240/120 х 60 х 15</span>
+										<span class="charact__description">плитка: <span>240 х 60 х 15</span></span>
+										<span class="charact__description">угол: <span>240/120 х 60 х 15</span></span>
 									</div>
 								</li>
 								<li class="charact__item">
 									<span class="charact__title">Упаковка:</span>
 									<div class="charact__description-wrap">
-										<span class="charact__description">плитка: 0,63м2 (36шт)</span>
-										<span class="charact__description">угол: 1,26мп (18шт)</span>
+										<span class="charact__description">плитка: <span>0,63м2</span> (36шт)</span>
+										<span class="charact__description">угол: <span>1,26мп</span> (18шт)</span>
 									</div>
 								</li>
 							</ul>
@@ -171,22 +171,22 @@
 								<li class="charact__item">
 									<span class="charact__title">Цены:</span>
 									<div class="charact__description-wrap">
-										<span class="charact__description">плитка: 87.4 руб/м2</span>
-										<span class="charact__description">угол: 87.4 руб/мп</span>
+										<span class="charact__description">плитка: <span>87.4</span> руб/м2</span>
+										<span class="charact__description">угол: <span>87.4</span> руб/мп</span>
 									</div>
 								</li>
 								<li class="charact__item">
 									<span class="charact__title">Размеры:</span>
 									<div class="charact__description-wrap">
-										<span class="charact__description">плитка: 240 х 60 х 15</span>
-										<span class="charact__description">угол: 240/120 х 60 х 15</span>
+										<span class="charact__description">плитка: <span>240 х 60 х 15</span></span>
+										<span class="charact__description">угол: <span>240/120 х 60 х 15</span></span>
 									</div>
 								</li>
 								<li class="charact__item">
 									<span class="charact__title">Упаковка:</span>
 									<div class="charact__description-wrap">
-										<span class="charact__description">плитка: 0,63м2 (36шт)</span>
-										<span class="charact__description">угол: 1,26мп (18шт)</span>
+										<span class="charact__description">плитка: <span>0,63м2</span> (36шт)</span>
+										<span class="charact__description">угол: <span>1,26мп</span> (18шт)</span>
 									</div>
 								</li>
 							</ul>
@@ -271,22 +271,22 @@
 								<li class="charact__item">
 									<span class="charact__title">Цены:</span>
 									<div class="charact__description-wrap">
-										<span class="charact__description">плитка: 87.4 руб/м2</span>
-										<span class="charact__description">угол: 87.4 руб/мп</span>
+										<span class="charact__description">плитка: <span>87.4</span> руб/м2</span>
+										<span class="charact__description">угол: <span>87.4</span> руб/мп</span>
 									</div>
 								</li>
 								<li class="charact__item">
 									<span class="charact__title">Размеры:</span>
 									<div class="charact__description-wrap">
-										<span class="charact__description">плитка: 240 х 60 х 15</span>
-										<span class="charact__description">угол: 240/120 х 60 х 15</span>
+										<span class="charact__description">плитка: <span>240 х 60 х 15</span></span>
+										<span class="charact__description">угол: <span>240/120 х 60 х 15</span></span>
 									</div>
 								</li>
 								<li class="charact__item">
 									<span class="charact__title">Упаковка:</span>
 									<div class="charact__description-wrap">
-										<span class="charact__description">плитка: 0,63м2 (36шт)</span>
-										<span class="charact__description">угол: 1,26мп (18шт)</span>
+										<span class="charact__description">плитка: <span>0,63м2</span> (36шт)</span>
+										<span class="charact__description">угол: <span>1,26мп</span> (18шт)</span>
 									</div>
 								</li>
 							</ul>
