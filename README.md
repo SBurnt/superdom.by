@@ -1,1 +1,1 @@
-# superdom.by
+# https://superdom.netlify.app/
